@@ -1,0 +1,70 @@
+/* GoldRadar premium layer: visual polish + motion. Safe to remove (delete this file and the two tags). */
+:root{--goldgrad:linear-gradient(120deg,#fff3c9 0%,#e9c46a 38%,#c99a2e 62%,#f7dc8f 100%)}
+body{opacity:0;animation:pfade .5s .05s ease-out forwards;background:
+ radial-gradient(900px 500px at 85% -8%,rgba(228,184,91,.10),transparent 60%),
+ radial-gradient(700px 480px at -5% 30%,rgba(201,154,46,.07),transparent 60%),var(--bg);background-attachment:fixed}
+@keyframes pfade{to{opacity:1}}
+
+/* header */
+.top{transition:background .3s,box-shadow .3s,padding .3s;border-bottom-color:rgba(228,184,91,.16)}
+.top.scrolled{background:rgba(11,13,18,.78);box-shadow:0 8px 30px rgba(0,0,0,.45)}
+.top::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:linear-gradient(90deg,transparent,rgba(228,184,91,.55),transparent);opacity:.6}
+.brand b{background:var(--goldgrad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.dot{transition:transform .6s cubic-bezier(.3,1.4,.5,1)}
+.dot.flip{animation:coinflip .7s ease-in-out}
+@keyframes coinflip{0%{transform:rotateY(0)}50%{transform:rotateY(180deg) scale(1.15)}100%{transform:rotateY(360deg)}}
+.live::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--green);margin-right:7px;box-shadow:0 0 0 0 rgba(52,211,153,.6);animation:ppulse 2s infinite;vertical-align:middle}
+@keyframes ppulse{70%{box-shadow:0 0 0 8px rgba(52,211,153,0)}100%{box-shadow:0 0 0 0 rgba(52,211,153,0)}}
+.topnav a{position:relative}
+.topnav a::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:1px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.topnav a:hover::after{transform:scaleX(1)}
+
+/* metallic numbers */
+.rate .v,.hero .price,.card .fin,.cheap b,.cheap .v{background:var(--goldgrad);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}
+
+/* cards */
+.rate,.card,.cheap>*{transition:transform .25s cubic-bezier(.2,.8,.3,1),border-color .25s,box-shadow .25s}
+.rate:hover,.card:hover,.cheap>*:hover{transform:translateY(-3px);border-color:rgba(228,184,91,.55);box-shadow:0 14px 34px rgba(0,0,0,.45),0 0 0 1px rgba(228,184,91,.12)}
+.card{background:linear-gradient(180deg,#151925,#12151d)}
+.grid .card,.rates .rate,.cheap>*{animation:rise .55s cubic-bezier(.2,.8,.3,1) backwards;animation-delay:calc(var(--i,0)*45ms)}
+@keyframes rise{from{opacity:0;transform:translateY(16px) scale(.98)}to{opacity:1;transform:none}}
+
+/* shine on the best price */
+.hero,.card.best{position:relative;overflow:hidden}
+.hero{box-shadow:0 0 0 1px rgba(228,184,91,.18),0 20px 60px rgba(201,154,46,.10)}
+.hero::after,.card.best::after{content:"";position:absolute;top:0;bottom:0;left:-60%;width:40%;background:linear-gradient(100deg,transparent,rgba(255,236,176,.14),transparent);transform:skewX(-18deg);animation:shine 5.5s ease-in-out 1.2s infinite;pointer-events:none}
+@keyframes shine{0%{left:-60%}35%,100%{left:140%}}
+
+/* controls and buttons */
+.chips button,.seg button,.card a.buy,.lang,button{transition:transform .15s,background .2s,border-color .2s,box-shadow .2s,color .2s}
+.chips button:hover,.seg button:hover{border-color:var(--gold2)}
+.chips button.on,.seg button.on{box-shadow:0 0 18px rgba(228,184,91,.35)}
+.chips button:active,.seg button:active,.card a.buy:active,button:active{transform:scale(.95)}
+.card a.buy{background:linear-gradient(180deg,rgba(228,184,91,.10),rgba(228,184,91,.02))}
+.card a.buy:hover{background:var(--gold);color:#201807;box-shadow:0 8px 22px rgba(228,184,91,.35)}
+.cmpdock{backdrop-filter:blur(14px)}
+.cmpdock .cmpbox{background:rgba(18,21,29,.82);border:1px solid rgba(228,184,91,.3)}
+
+/* scroll reveal */
+.js-rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.3,1)}
+.js-rv.in{opacity:1;transform:none}
+h2{position:relative}
+h2::after{content:"";display:block;width:36px;height:2px;margin-top:6px;background:var(--goldgrad);border-radius:2px;transition:width .6s .1s}
+.in>h2::after,h2.in::after{width:64px}
+
+/* skeletons */
+#rates:empty,#grid:empty,#cheapRow:empty,#picks:empty{min-height:96px;border-radius:14px;background:linear-gradient(100deg,#12151d 30%,#1b2030 50%,#12151d 70%);background-size:200% 100%;animation:shimmer 1.4s infinite linear}
+@keyframes shimmer{to{background-position:-200% 0}}
+
+/* scroll progress line */
+#pprog{position:fixed;left:0;top:0;height:2px;width:0;background:var(--goldgrad);z-index:20;box-shadow:0 0 10px rgba(228,184,91,.6)}
+
+/* calculators / tracker panels */
+.calc{background:linear-gradient(180deg,#151925,#12151d);transition:border-color .3s,box-shadow .3s}
+.calc:hover{border-color:rgba(228,184,91,.35)}
+input:focus,select:focus{outline:none;border-color:var(--gold)!important;box-shadow:0 0 0 3px rgba(228,184,91,.18)}
+
+@media (prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation:none!important;transition:none!important}
+ body{opacity:1}.js-rv{opacity:1;transform:none}
+}

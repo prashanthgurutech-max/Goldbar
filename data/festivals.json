@@ -1,0 +1,9 @@
+{
+ "dealsWindowDays": 45,
+ "note": "Dates checked on 4 Oct 2026. Add more festivals as {name, date}. The festival name is translated if it is in the translation list.",
+ "festivals": [
+  {"name": "Dhanteras", "date": "2026-11-06"},
+  {"name": "Diwali", "date": "2026-11-08"},
+  {"name": "Akshaya Tritiya", "date": "2027-05-08"}
+ ]
+}

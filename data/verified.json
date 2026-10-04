@@ -1,0 +1,6 @@
+{
+ "note": "A brand shows the Verified badge only when verified is true here. Set it after you have seen the brand's certificate or the seller's authorisation yourself, and write the date and a short note.",
+ "brands": {
+  "Example Brand": {"verified": false, "checked": "", "note": "Replace with a real brand name from listings.json, then set verified to true"}
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "updated": "2026-10-04",
+ "note": "These are your own estimates. adjust24 is rupees per gram of 24K gold added to the national rate, and adjustSilverKg is rupees per kg of silver. Check a local jeweller's rate now and then and change the numbers.",
+ "cities": [
+  {"name": "Hyderabad", "adjust24": 0, "adjustSilverKg": 0},
+  {"name": "Mumbai", "adjust24": 0, "adjustSilverKg": 0},
+  {"name": "Delhi", "adjust24": 0, "adjustSilverKg": 0},
+  {"name": "Chennai", "adjust24": 0, "adjustSilverKg": 0},
+  {"name": "Bengaluru", "adjust24": 0, "adjustSilverKg": 0},
+  {"name": "Kolkata", "adjust24": 0, "adjustSilverKg": 0},
+  {"name": "Ahmedabad", "adjust24": 0, "adjustSilverKg": 0},
+  {"name": "Pune", "adjust24": 0, "adjustSilverKg": 0},
+  {"name": "Vijayawada", "adjust24": 0, "adjustSilverKg": 0},
+  {"name": "Visakhapatnam", "adjust24": 0, "adjustSilverKg": 0}
+ ]
+}

@@ -42,6 +42,15 @@ function link(l){
   }catch(e){}
   return u0;
 }
+
+function fresh(l){const t=l.checked||CFG.listingsChecked;if(!t)return{txt:'',cls:''};const h=(Date.now()-new Date(t))/36e5,s=CFG.staleHours||24,x=CFG.expiredHours||72;
+  return{h,cls:h>x?'bad':h>s?'warn':'ok',txt:'Price checked '+ago(t)+(h>x?' · likely outdated, check the store':h>s?' · may be outdated':'')}}
+const SITE=()=>location.origin+location.pathname.replace(/index\.html$/,'');
+function shareUrl(l){return 'https://wa.me/?text='+encodeURIComponent(`${l.brand} ${l.weight} g ${l.karat}K gold at ${l.store}: ${inr(l.final)} (${inr(l.perg)} per gram of pure gold). Compare all stores: ${SITE()}?k=${l.karat}&w=${l.weight}`)}
+function reportUrl(l){const ct=CFG.contact||{};const msg=`Wrong price on GoldRadar. Store: ${l.store}. Product: ${l.brand} ${l.weight} g ${l.karat}K. Shown: ${inr(l.price)}. Page: ${SITE()}`;
+  if(ct.whatsapp)return 'https://wa.me/'+String(ct.whatsapp).replace(/\D/g,'')+'?text='+encodeURIComponent(msg);
+  if(ct.email)return 'mailto:'+ct.email+'?subject='+encodeURIComponent('Wrong price report')+'&body='+encodeURIComponent(msg);return ''}
+function acts(l){const r=reportUrl(l);return `<div class="acts"><a href="${shareUrl(l)}" target="_blank" rel="noopener">Share on WhatsApp</a>${r?`<a href="${r}" target="_blank" rel="noopener">Report wrong price</a>`:''}</div>`}
 function rows(f){return LIST.filter(f).map(calc)}
 function sorter(){return st.sort==='perg'?(a,b)=>a.perg-b.perg:st.sort==='save'?(a,b)=>b.save-a.save||a.final-b.final:(a,b)=>a.final-b.final}
 function setup(){
@@ -76,8 +85,9 @@ function render(){
   const h=here[0];
   $('#best').innerHTML=h?`<div class="hero"><div><div class="tag">BEST PRICE · ${st.weight} g ${st.karat}K${st.store!=='All'?' · '+st.store:''}</div>
     <div class="store">${h.store}</div><div class="price">${inr(h.final)}</div>
+    <div class="chk ${fresh(h).cls}">${fresh(h).txt}</div>
     <div class="sub">${inr(h.perg)} per gram of pure gold · ${h.brand}${h.save>0?` · listed ${inr(h.price)}`:''}</div>
-    <a class="btn" data-store="${h.store}" href="${link(h)}" target="_blank" rel="noopener sponsored">Buy on ${h.store}</a>${affOn(h)?'<div class="aff">Affiliate link</div>':''}</div>
+    <a class="btn" data-store="${h.store}" href="${link(h)}" target="_blank" rel="noopener sponsored">Buy on ${h.store}</a>${affOn(h)?'<div class="aff">Affiliate link</div>':''}${acts(h)}</div>
     <div class="meta">${h.save>0?`<span class="pill">You save ${inr(h.save)} with offers</span>`:''}
     ${h.c?`<span class="pill gold">Coupon ${h.coupon.code}: −${inr(h.c)}</span>`:''}${h.b?`<span class="pill gold">${h.bank.label}: −${inr(h.b)}</span>`:''}
     <span class="pill ${h.vs>0?'red':''}">${h.vs>=0?'+':''}${h.vs.toFixed(1)}% vs gold value ${inr(h.market)}</span>
@@ -98,7 +108,8 @@ function render(){
     ${l.c?`<div class="off">Coupon ${l.coupon.code}: −${inr(l.c)}</div>`:l.coupon&&!couponLive(l.coupon)?`<div class="mut" style="font-size:13px">Coupon ${l.coupon.code} is not live right now</div>`:l.coupon&&!st.coupon?`<div class="mut" style="font-size:13px">Coupon ${l.coupon.code} available</div>`:''}
     ${l.b?`<div class="off">${l.bank.label}: −${inr(l.b)}</div>`:l.bank&&!st.bank?`<div class="mut" style="font-size:13px">${l.bank.label} available</div>`:''}
     <div class="row"><span>${inr(l.perg)} / g pure</span><span>${l.vs>=0?'+':''}${l.vs.toFixed(1)}% vs gold value</span></div>
-    <a class="buy" data-store="${l.store}" href="${link(l)}" target="_blank" rel="noopener sponsored">Buy on ${l.store}</a>${affOn(l)?'<div class="aff">Affiliate link</div>':''}</div>`).join(''):'<div class="empty">Nothing to show.</div>';
+    <div class="chk ${fresh(l).cls}">${fresh(l).txt}</div>
+    <a class="buy" data-store="${l.store}" href="${link(l)}" target="_blank" rel="noopener sponsored">Buy on ${l.store}</a>${affOn(l)?'<div class="aff">Affiliate link</div>':''}${acts(l)}</div>`).join(''):'<div class="empty">Nothing to show.</div>';
   // comparison
   const S=CFG.stores;
   $('#cmp').innerHTML=`<tr><th>WEIGHT</th>${S.map(s=>`<th>${s.toUpperCase()}</th>`).join('')}<th>GOLD VALUE</th></tr>`+

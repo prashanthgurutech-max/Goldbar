@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>About – GoldRadar</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"><link rel="icon" href="icon-192.png"><meta name="theme-color" content="#0b0d12"></head><body>
+<header class="top"><div class="wrap bar"><div class="brand"><span class="dot"></span><b>GoldRadar</b></div><a class="back" href="./">← Back to prices</a></div></header>
+<main class="page"><h1>About GoldRadar</h1>
+<p>GoldRadar helps you compare the price of gold coins and bars (1 g to 20 g) across Myntra, Ajio, Flipkart, Shopsy and Amazon, with coupons and bank offers taken into account, next to today's gold and silver rates.</p>
+<h2>Where the numbers come from</h2>
+<ul><li><b>Store prices:</b> entered from the stores' own product pages and shown with the time they were last checked. Prices change often, so always confirm the final price on the store before you buy.</li>
+<li><b>Gold and silver rates:</b> an estimate calculated from the international price converted to rupees, plus an allowance for import duty and GST. It can differ from the rate your jeweller quotes.</li>
+<li><b>Best price:</b> the lowest final price after the coupons and bank offers you have switched on. Ranking is by price only. It never depends on commission.</li>
+<li><b>Coupons:</b> some coupons (for example BLINKDEAL6 on Myntra) are not always live. The site shows them only when they have been switched on.</li></ul>
+<h2>Links and earnings</h2>
+<p>Some Buy buttons may be affiliate links. If you buy through one, the site may earn a small commission at no extra cost to you. Buttons with an affiliate link are labelled "Affiliate link".</p>
+<h2>Contact</h2><p>To report a wrong price or ask a question, use <span id="contact">the contact details shown on the site</span>.</p><p class="mut" style="margin-top:30px">Last updated: October 2026 · <a class="back" href="about.html">About</a> · <a class="back" href="privacy.html">Privacy</a> · <a class="back" href="disclaimer.html">Disclaimer</a></p></main>
+<script>fetch('data/config.json').then(r=>r.json()).then(c=>{const k=c.contact||{},e=document.getElementById('contact');if(!e)return;const a=[];if(k.whatsapp)a.push('WhatsApp '+k.whatsapp);if(k.email)a.push(k.email);e.textContent=a.length?a.join(' · '):'the contact details shown on the site';}).catch(()=>{});</script></body></html>

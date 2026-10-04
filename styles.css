@@ -58,3 +58,9 @@ footer{margin:36px 0 40px;color:var(--mut);font-size:13px;display:grid;gap:8px}
 .offerstat{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 #out{cursor:pointer;background:none;font:600 13px Inter;padding:6px 14px;letter-spacing:0}
 .aff{font-size:11px;color:var(--mut);margin-top:6px}.card .aff{text-align:center;margin-top:0}
+
+.chk{font-size:12px;margin:2px 0}.chk.ok{color:var(--mut)}.chk.warn{color:#f5b942}.chk.bad{color:var(--red);font-weight:600}
+.acts{display:flex;gap:14px;justify-content:center;margin-top:6px;font-size:12px}.acts a{color:var(--mut);text-decoration:underline}
+.hero .acts{justify-content:flex-start}.flinks{display:flex;gap:18px;flex-wrap:wrap}.flinks a{color:var(--gold);text-decoration:none}
+.page{max-width:760px;margin:0 auto;padding:24px 16px 60px}.page h1{font-family:Fraunces,serif;font-size:32px;margin:10px 0 6px}.page h2{font-size:20px;margin:26px 0 8px}
+.page p,.page li{color:#d9d5c8;margin:8px 0}.page ul{padding-left:20px}.page .mut{font-size:13px}.back{color:var(--gold);text-decoration:none;font-size:14px}

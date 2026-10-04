@@ -35,5 +35,5 @@ writeFileSync('data/rates.json', JSON.stringify(out, null, 1));
 const hist = rd('data/history.json'); const d = ist.toISOString().slice(0, 10);
 const last = hist[hist.length - 1];
 if (last && last.d === d) { last.g24 = gold24; last.s = silver_kg; last.r = 1; } else hist.push({ d, g24: gold24, s: silver_kg, r: 1 });   // r:1 marks a real (not sample) day
-writeFileSync('data/history.json', JSON.stringify(hist.slice(-90)));
+writeFileSync('data/history.json', JSON.stringify(hist.slice(-400)));
 console.log('gold24', gold24, 'silver_kg', silver_kg, source);

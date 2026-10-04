@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s);
 const inr=n=>'₹'+Math.round(n).toLocaleString('en-IN');
-const KARATS=[24,22,18,14];
+const KARATS=[24,22,18,14],WEIGHTS=[1,2,5,10,20];
 const st={karat:24,weight:1,store:'All',coupon:true,bank:true,sort:'final',hist:'g24'};
 let CFG,RATES,LIST,HIST,OFFERS={};
 
@@ -12,7 +12,7 @@ async function load(){
   {const rs=RATES.mode==='sample',ls=CFG.listingsAreSample!==false;if(rs||ls){$('#sampleBanner').hidden=false;$('#sampleBanner').textContent=rs&&ls?'Sample data. Rates and store prices below are made up to show the layout.':ls?'Gold and silver rates are live. Store prices below are SAMPLES, not real listings yet.':'Gold and silver rates are samples.'}}
   const p=new URLSearchParams(location.search);
   if(KARATS.includes(+p.get('k')))st.karat=+p.get('k');
-  if(+p.get('w')>=1&&+p.get('w')<=20)st.weight=+p.get('w');
+  if(WEIGHTS.includes(+p.get('w')))st.weight=+p.get('w');
   setup();render();
   window.GRTrack&&GRTrack.init(CFG.supabase);
 }
@@ -55,7 +55,7 @@ function rows(f){return LIST.filter(f).map(calc)}
 function sorter(){return st.sort==='perg'?(a,b)=>a.perg-b.perg:st.sort==='save'?(a,b)=>b.save-a.save||a.final-b.final:(a,b)=>a.final-b.final}
 function setup(){
   $('#karatSeg').innerHTML=KARATS.map(k=>`<button data-k="${k}">${k}K</button>`).join('');
-  $('#weightChips').innerHTML=Array.from({length:20},(_,i)=>`<button data-w="${i+1}">${i+1} g</button>`).join('');
+  $('#weightChips').innerHTML=WEIGHTS.map(w=>`<button data-w="${w}">${w} g</button>`).join('');
   $('#storeChips').innerHTML=['All',...CFG.stores].map(s=>`<button data-s="${s}">${s}</button>`).join('');
   $('#karatSeg').onclick=e=>{const k=e.target.dataset.k;if(k){st.karat=+k;render();GRTrack.select(st.weight,st.karat)}};
   $('#weightChips').onclick=e=>{const w=e.target.dataset.w;if(w){st.weight=+w;render();GRTrack.select(st.weight,st.karat)}};
@@ -95,7 +95,7 @@ function render(){
     :`<div class="empty" style="margin-top:20px">No ${st.weight} g ${st.karat}K listing${st.store!=='All'?' on '+st.store:''}. Try another weight or store.</div>`;
   // cheapest per weight
   $('#cheapSub').textContent=`${st.karat}K, lowest final price across all stores`;
-  $('#cheapRow').innerHTML=Array.from({length:20},(_,i)=>{const w=i+1,r=rows(l=>kf(l)&&l.weight===w).sort((a,b)=>a.final-b.final)[0];
+  $('#cheapRow').innerHTML=WEIGHTS.map(w=>{const r=rows(l=>kf(l)&&l.weight===w).sort((a,b)=>a.final-b.final)[0];
     return r?`<button class="cc ${w===st.weight?'on':''}" data-w="${w}"><div class="w">${w} G</div><div class="p">${inr(r.final)}</div><div class="s">${r.store}</div><div class="mut" style="font-size:12px">${inr(r.perg)} / g pure</div></button>`
     :`<button class="cc ${w===st.weight?'on':''}" data-w="${w}"><div class="w">${w} G</div><div class="p mut">–</div><div class="s mut">no listing</div></button>`}).join('');
   // listings
@@ -113,12 +113,12 @@ function render(){
   // comparison
   const S=CFG.stores;
   $('#cmp').innerHTML=`<tr><th>WEIGHT</th>${S.map(s=>`<th>${s.toUpperCase()}</th>`).join('')}<th>GOLD VALUE</th></tr>`+
-   Array.from({length:20},(_,i)=>{const w=i+1;const best={};S.forEach(s=>{best[s]=rows(l=>kf(l)&&l.weight===w&&l.store===s).sort((a,b)=>a.final-b.final)[0]});
+   WEIGHTS.map(w=>{const best={};S.forEach(s=>{best[s]=rows(l=>kf(l)&&l.weight===w&&l.store===s).sort((a,b)=>a.final-b.final)[0]});
     const min=Math.min(...S.map(s=>best[s]?best[s].final:Infinity));
     return `<tr><td>${w} g</td>${S.map(s=>best[s]?`<td class="${best[s].final===min?'best':''}">${inr(best[s].final)}</td>`:'<td class="na">–</td>').join('')}<td>${inr(g*w*st.karat/24)}</td></tr>`}).join('');
   // market value table
   $('#mv').innerHTML=`<tr><th>WEIGHT</th>${KARATS.map(k=>`<th>${k}K</th>`).join('')}</tr>`+
-   Array.from({length:20},(_,i)=>{const w=i+1;return `<tr><td>${w} g</td>${KARATS.map(k=>`<td>${inr(g*w*k/24)}</td>`).join('')}</tr>`}).join('');
+   WEIGHTS.map(w=>{return `<tr><td>${w} g</td>${KARATS.map(k=>`<td>${inr(g*w*k/24)}</td>`).join('')}</tr>`}).join('');
   hist();
 }
 function hist(){

@@ -8,7 +8,7 @@
   "price": 31653,
   "title": "2 g 24K (999) gold bar",
   "url": "https://dl.flipkart.com/s/UFA1sPuuuN",
-  "checked": "2026-10-04T14:45:00+05:30"
+  "checked": "2026-10-04T16:00:00+05:30"
  },
  {
   "id": 2,
@@ -19,7 +19,7 @@
   "price": 78642,
   "title": "5 g 24K (995) gold coin",
   "url": "https://dl.flipkart.com/s/UGic87uuuN",
-  "checked": "2026-10-04T14:45:00+05:30"
+  "checked": "2026-10-04T16:00:00+05:30"
  },
  {
   "id": 3,
@@ -30,7 +30,7 @@
   "price": 158265,
   "title": "10 g 24K (999) gold bar",
   "url": "https://dl.flipkart.com/s/UGM0BluuuN",
-  "checked": "2026-10-04T14:45:00+05:30"
+  "checked": "2026-10-04T16:00:00+05:30"
  },
  {
   "id": 4,
@@ -39,9 +39,9 @@
   "karat": 24,
   "weight": 10,
   "price": 157850,
-  "title": "10 g 24K (9999) gold bar",
+  "title": "10 g 24K (999) gold bar",
   "url": "https://dl.flipkart.com/s/UFcsWhuuuN",
-  "checked": "2026-10-04T14:45:00+05:30"
+  "checked": "2026-10-04T16:00:00+05:30"
  },
  {
   "id": 5,
@@ -52,13 +52,13 @@
   "price": 157884,
   "title": "10 g 24K (999) gold bar",
   "url": "https://www.myntra.com/mailers/jewellery/bhima/bhima-floral-24k-999-purity-gold-bar-10-gram/23250698/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
   "coupon": {
    "code": "BLINKDEAL6",
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  },
-  "checked": "2026-10-04T14:45:00+05:30"
+  }
  },
  {
   "id": 6,
@@ -69,13 +69,13 @@
   "price": 79243,
   "title": "5 g 24K (999) gold bar",
   "url": "https://www.myntra.com/mailers/jewellery/bhima/bhima-floral-24k-999-purity-gold-bar-5-gram/23250684/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
   "coupon": {
    "code": "BLINKDEAL6",
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  },
-  "checked": "2026-10-04T14:45:00+05:30"
+  }
  },
  {
   "id": 7,
@@ -86,13 +86,13 @@
   "price": 16230,
   "title": "1 g 24K (999) gold bar",
   "url": "https://www.myntra.com/mailers/jewellery/bhima/bhima-floral-24k-999-purity-gold-bar-1-gram/23250690/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
   "coupon": {
    "code": "BLINKDEAL6",
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  },
-  "checked": "2026-10-04T14:45:00+05:30"
+  }
  },
  {
   "id": 8,
@@ -103,13 +103,13 @@
   "price": 33643,
   "title": "2 g 24K (999) gold bar",
   "url": "https://www.myntra.com/mailers/jewellery/joyalukkas/joyalukkas-24kt(999)-gold-flower-gold-bar-2-gm/29872330/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
   "coupon": {
    "code": "BLINKDEAL6",
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  },
-  "checked": "2026-10-04T14:45:00+05:30"
+  }
  },
  {
   "id": 9,
@@ -120,13 +120,13 @@
   "price": 316254,
   "title": "20 g 24K (999) gold bar",
   "url": "https://www.myntra.com/mailers/jewellery/bhima/bhima-floral-24k-999-purity-gold-bar-20-gram/23250694/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
   "coupon": {
    "code": "BLINKDEAL6",
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  },
-  "checked": "2026-10-04T14:45:00+05:30"
+  }
  },
  {
   "id": 10,
@@ -137,13 +137,13 @@
   "price": 315284,
   "title": "20 g 24K (999) gold bar",
   "url": "https://www.myntra.com/mailers/jewellery/kalyan-jewellers/kalyan-jewellers-24kt-999-purity-lotus-gold-bar-coin---20gm/31416923/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
   "coupon": {
    "code": "BLINKDEAL6",
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  },
-  "checked": "2026-10-04T14:45:00+05:30"
+  }
  },
  {
   "id": 11,
@@ -154,13 +154,13 @@
   "price": 79167,
   "title": "5 g 24K (999) gold bar",
   "url": "https://www.myntra.com/mailers/jewellery/kalyan-jewellers/kalyan-jewellers-24kt-999-purity-lotus-gold-bar-coin---5-g/31416960/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
   "coupon": {
    "code": "BLINKDEAL6",
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  },
-  "checked": "2026-10-04T14:45:00+05:30"
+  }
  },
  {
   "id": 12,
@@ -171,12 +171,467 @@
   "price": 157907,
   "title": "10 g 24K (999) gold bar",
   "url": "https://www.myntra.com/mailers/jewellery/kalyan-jewellers/kalyan-jewellers-24kt-999-purity-lotus-gold-bar-coin---10-g/31416941/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
   "coupon": {
    "code": "BLINKDEAL6",
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  },
-  "checked": "2026-10-04T14:45:00+05:30"
+  }
+ },
+ {
+  "id": 13,
+  "store": "Ajio",
+  "brand": "BHIMA",
+  "karat": 24,
+  "weight": 10,
+  "price": 158248,
+  "title": "10 g 24K (999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/zxih6xxu",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 14,
+  "store": "Ajio",
+  "brand": "Kalyan Jewellers",
+  "karat": 24,
+  "weight": 10,
+  "price": 161097,
+  "title": "10 g 24K (999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/ghbdgmf0",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 15,
+  "store": "Ajio",
+  "brand": "Joyalukkas",
+  "karat": 24,
+  "weight": 10,
+  "price": 159954,
+  "title": "10 g 24K (999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/9monwo21",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 16,
+  "store": "Ajio",
+  "brand": "Joyalukkas",
+  "karat": 24,
+  "weight": 2,
+  "price": 32631,
+  "title": "2 g 24K (999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/gxoikwch",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 17,
+  "store": "Ajio",
+  "brand": "BHIMA",
+  "karat": 24,
+  "weight": 1,
+  "price": 16295,
+  "title": "1 g 24K (999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/ahc4fwid",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 18,
+  "store": "Ajio",
+  "brand": "Kalyan Jewellers",
+  "karat": 24,
+  "weight": 5,
+  "price": 81460,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/ziv200q5",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 19,
+  "store": "Ajio",
+  "brand": "BHIMA",
+  "karat": 24,
+  "weight": 5,
+  "price": 79854,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/p46xxp9v",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 20,
+  "store": "Ajio",
+  "brand": "Malabar Gold & Diamonds",
+  "karat": 24,
+  "weight": 2,
+  "price": 32861,
+  "title": "2 g 24K (999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/11q8e7s4",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 21,
+  "store": "Ajio",
+  "brand": "Kalyan Jewellers",
+  "karat": 24,
+  "weight": 20,
+  "price": 319495,
+  "title": "20 g 24K (999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/9zrg9cwc",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 22,
+  "store": "Ajio",
+  "brand": "Bangalore Refinery",
+  "karat": 24,
+  "weight": 10,
+  "price": 158687,
+  "title": "10 g 24K (9999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/ztq52wf8",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 23,
+  "store": "Ajio",
+  "brand": "Malabar Gold & Diamonds",
+  "karat": 24,
+  "weight": 5,
+  "price": 81304,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/kzfrps9c",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 24,
+  "store": "Ajio",
+  "brand": "BHIMA",
+  "karat": 24,
+  "weight": 20,
+  "price": 318647,
+  "title": "20 g 24K (999) gold bar",
+  "url": "https://ajioapps.onelink.me/ybtf/3u0tarnt",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 25,
+  "store": "Myntra",
+  "brand": "Joyalukkas",
+  "karat": 24,
+  "weight": 5,
+  "price": 83658,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://www.myntra.com/mailers/jewellery/joyalukkas/joyalukkas-24kt(999)-gold-flower-gold-bar-5-gm/29872341/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
+  "coupon": {
+   "code": "BLINKDEAL6",
+   "type": "pct",
+   "value": 6,
+   "note": "Applies only when BLINKDEAL6 is switched live"
+  }
+ },
+ {
+  "id": 26,
+  "store": "Myntra",
+  "brand": "Joyalukkas",
+  "karat": 24,
+  "weight": 10,
+  "price": 167016,
+  "title": "10 g 24K (999) gold bar",
+  "url": "https://www.myntra.com/mailers/jewellery/joyalukkas/joyalukkas-24-kt-flower-gold-bar--10g/35674438/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
+  "coupon": {
+   "code": "BLINKDEAL6",
+   "type": "pct",
+   "value": 6,
+   "note": "Applies only when BLINKDEAL6 is switched live"
+  }
+ },
+ {
+  "id": 27,
+  "store": "Myntra",
+  "brand": "Bangalore Refinery",
+  "karat": 24,
+  "weight": 2,
+  "price": 32560,
+  "title": "2 g 24K (9999) gold bar",
+  "url": "https://www.myntra.com/mailers/jewellery/bangalore-refinery/bangalore-refinery-24kt-999.9-purity-gold-bar--2-g/22810430/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
+  "coupon": {
+   "code": "BLINKDEAL6",
+   "type": "pct",
+   "value": 6,
+   "note": "Applies only when BLINKDEAL6 is switched live"
+  }
+ },
+ {
+  "id": 28,
+  "store": "Myntra",
+  "brand": "Bangalore Refinery",
+  "karat": 24,
+  "weight": 1,
+  "price": 16531,
+  "title": "1 g 24K (9999) gold bar",
+  "url": "https://www.myntra.com/mailers/jewellery/bangalore-refinery/bangalore-refinery-24kt-999.9-purity-gold-bar-1-g/22810428/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
+  "coupon": {
+   "code": "BLINKDEAL6",
+   "type": "pct",
+   "value": 6,
+   "note": "Applies only when BLINKDEAL6 is switched live"
+  }
+ },
+ {
+  "id": 29,
+  "store": "Myntra",
+  "brand": "Joyalukkas",
+  "karat": 24,
+  "weight": 20,
+  "price": 333732,
+  "title": "2 × 10 g 24K (999) gold bar combo (20 g)",
+  "url": "https://www.myntra.com/mailers/jewellery/joyalukkas/joyalukkaspack-of-2-24-kt-999-purity-floral-gold-bar-combo-10-g- -10-g/33911371/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
+  "coupon": {
+   "code": "BLINKDEAL6",
+   "type": "pct",
+   "value": 6,
+   "note": "Applies only when BLINKDEAL6 is switched live"
+  }
+ },
+ {
+  "id": 30,
+  "store": "Myntra",
+  "brand": "Malabar Gold & Diamonds",
+  "karat": 24,
+  "weight": 2,
+  "price": 32289,
+  "title": "2 g 24K (999) gold bar",
+  "url": "https://www.myntra.com/mailers/jewellery/malabar-gold-&-diamonds/malabar-gold-&-diamonds-24kt-999-purity-rose-gold-bar---2-g/40324065/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
+  "coupon": {
+   "code": "BLINKDEAL6",
+   "type": "pct",
+   "value": 6,
+   "note": "Applies only when BLINKDEAL6 is switched live"
+  }
+ },
+ {
+  "id": 31,
+  "store": "Myntra",
+  "brand": "Malabar Gold & Diamonds",
+  "karat": 24,
+  "weight": 5,
+  "price": 79989,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://www.myntra.com/mailers/jewellery/malabar-gold-&-diamonds/malabar-gold-&-diamonds-24kt-999-purity-rose-gold-bar---5-g/40324069/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
+  "coupon": {
+   "code": "BLINKDEAL6",
+   "type": "pct",
+   "value": 6,
+   "note": "Applies only when BLINKDEAL6 is switched live"
+  }
+ },
+ {
+  "id": 32,
+  "store": "Myntra",
+  "brand": "Malabar Gold & Diamonds",
+  "karat": 24,
+  "weight": 1,
+  "price": 16389,
+  "title": "1 g 24K (999) gold bar",
+  "url": "https://www.myntra.com/mailers/jewellery/malabar-gold-&-diamonds/malabar-gold-&-diamonds-24kt-999-purity-rose-gold-bar---1-g/40324062/buy",
+  "checked": "2026-10-04T16:00:00+05:30",
+  "coupon": {
+   "code": "BLINKDEAL6",
+   "type": "pct",
+   "value": 6,
+   "note": "Applies only when BLINKDEAL6 is switched live"
+  }
+ },
+ {
+  "id": 33,
+  "store": "Shopsy",
+  "brand": "Bangalore Refinery",
+  "karat": 24,
+  "weight": 1,
+  "price": 15712,
+  "title": "1 g 24K (9999) gold bar",
+  "url": "https://www.shopsy.in/banglore-refinery-sshopsy-br01-24-9999-k-1-g-gold-bar/p/itmb61a023314e79?pid=XINHMBWYEM6U3Z4G&lid=LSTXINHMBWYEM6U3Z4GYENXBB&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 34,
+  "store": "Shopsy",
+  "brand": "Bangalore Refinery",
+  "karat": 24,
+  "weight": 2,
+  "price": 31187,
+  "title": "2 g 24K (9999) gold bar",
+  "url": "https://www.shopsy.in/banglore-refinery-sshopsy-br02-24-9999-k-2-g-gold-bar/p/itm998815e5348d3?pid=XINHMBWYUGHA3ZMC&lid=LSTXINHMBWYUGHA3ZMCQIRHNR&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh&spotlightTagId=default_TrendingId_mcr%2F73x%2Fydh",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 35,
+  "store": "Shopsy",
+  "brand": "Bangalore Refinery",
+  "karat": 24,
+  "weight": 5,
+  "price": 78144,
+  "title": "5 g 24K (9999) gold bar",
+  "url": "https://www.shopsy.in/banglore-refinery-sshopsy-br03-24-9999-k-5-g-gold-bar/p/itm1b363a4d559a8?pid=XINHMBWXGGET8ZEJ&lid=LSTXINHMBWXGGET8ZEJLSMZFB&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 36,
+  "store": "Shopsy",
+  "brand": "Bangalore Refinery",
+  "karat": 24,
+  "weight": 10,
+  "price": 156287,
+  "title": "10 g 24K (9999) gold bar",
+  "url": "https://www.shopsy.in/banglore-refinery-sshopsy-br04-24-9999-k-10-g-gold-bar/p/itmc5d4561316ea2?pid=XINHMBWXZSXWVEBU&lid=LSTXINHMBWXZSXWVEBUYE9GTZ&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 37,
+  "store": "Shopsy",
+  "brand": "Kalamandir",
+  "karat": 24,
+  "weight": 5,
+  "price": 79101,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://www.shopsy.in/kalamandir-5-gram-gold-bar-24k-999-purity-textured-pattern-design-24-k-g/p/itmc87d82d532ad3?pid=CONHN54UACHVHKAY&lid=LSTCONHN54UACHVHKAYGCHX1J&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 38,
+  "store": "Shopsy",
+  "brand": "Kalamandir",
+  "karat": 24,
+  "weight": 2,
+  "price": 31917,
+  "title": "2 g 24K (999) gold bar",
+  "url": "https://www.shopsy.in/kalamandir-2-gm-999-fine-gold-bar-24k-pure-investment-gifting-collection-24-999-k-g/p/itmf71dcc44fe92d?pid=CONHN5FP2DHC7FS4&lid=LSTCONHN5FP2DHC7FS4G51FPM&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 39,
+  "store": "Shopsy",
+  "brand": "Joyalukkas",
+  "karat": 24,
+  "weight": 5,
+  "price": 79133,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://www.shopsy.in/joyalukkas-flower-24-999-k-5-g-gold-bar/p/itm2958407f13f7b?pid=CONEWDKTSJFXNQ8G&lid=LSTCONEWDKTSJFXNQ8GTKBCYS&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 40,
+  "store": "Shopsy",
+  "brand": "BHIMA",
+  "karat": 24,
+  "weight": 5,
+  "price": 82027,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://www.shopsy.in/bhima-24-999-k-5-g-gold-bar/p/itmbb2f813e1cff5?pid=CONHHVFMNYZJZVPM&lid=LSTCONHHVFMNYZJZVPMHINY1J&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 41,
+  "store": "Amazon",
+  "brand": "Kalyan Jewellers",
+  "karat": 24,
+  "weight": 2,
+  "price": 33317,
+  "title": "2 g 24K (999) gold bar",
+  "url": "https://www.amazon.in/dp/B0D1VL5RX9?ref_=cm_sw_r_cso_cp_apin_dp_WTRYT1T5H22ZGHQKJ7MB",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 42,
+  "store": "Amazon",
+  "brand": "Joyalukkas",
+  "karat": 24,
+  "weight": 1,
+  "price": 16861,
+  "title": "1 g 24K (999) gold bar",
+  "url": "https://amzn.in/d/06fndrli",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 43,
+  "store": "Amazon",
+  "brand": "Kalyan Jewellers",
+  "karat": 24,
+  "weight": 10,
+  "price": 165441,
+  "title": "10 g 24K (999) gold bar",
+  "url": "https://amzn.in/d/02pzG8IH",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 44,
+  "store": "Amazon",
+  "brand": "BHIMA",
+  "karat": 24,
+  "weight": 5,
+  "price": 82227,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://amzn.in/d/0bkOR1x5",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 45,
+  "store": "Flipkart",
+  "brand": "BHIMA",
+  "karat": 24,
+  "weight": 5,
+  "price": 82027,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://dl.flipkart.com/s/UZ7px!uuuN",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 46,
+  "store": "Flipkart",
+  "brand": "Bangalore Refinery",
+  "karat": 24,
+  "weight": 5,
+  "price": 78925,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://dl.flipkart.com/s/UD2P_huuuN",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 47,
+  "store": "Flipkart",
+  "brand": "Kalamandir",
+  "karat": 24,
+  "weight": 2,
+  "price": 33607,
+  "title": "2 g 24K (999) gold bar",
+  "url": "https://dl.flipkart.com/s/UZmLq2uuuN",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 48,
+  "store": "Flipkart",
+  "brand": "Kalamandir",
+  "karat": 24,
+  "weight": 10,
+  "price": 167202,
+  "title": "10 g 24K (999) gold bar",
+  "url": "https://dl.flipkart.com/s/IiI3c_NNNN",
+  "checked": "2026-10-04T16:00:00+05:30"
+ },
+ {
+  "id": 49,
+  "store": "Flipkart",
+  "brand": "Kalamandir",
+  "karat": 24,
+  "weight": 5,
+  "price": 83706,
+  "title": "5 g 24K (999) gold bar",
+  "url": "https://dl.flipkart.com/s/Iix016NNNN",
+  "checked": "2026-10-04T16:00:00+05:30"
  }
 ]

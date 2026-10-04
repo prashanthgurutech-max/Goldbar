@@ -37,8 +37,8 @@
     "note": "Gold rate = international price x USD/INR + premium for duty, GST and local margin. Tune indiaPremiumPct until it matches the Indian retail rate you trust, or fill 'manual' in data/rates.json."
   },
   "supabase": {
-    "url": "",
-    "anonKey": ""
+    "url": "https://uoynmobrkmwvurauqzjl.supabase.co",
+    "anonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVveW5tb2Jya213dnVyYXVxempsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTExMDYyNzMsImV4cCI6MjEwNjY4MjI3M30.HdcTDKvppbMleOxQxLE9tf7NIxc4tDwA2-euv92R_6k"
   },
   "listingsAreSample": false,
     "listingsAreSample": false,

@@ -7,7 +7,8 @@
   "weight": 2,
   "price": 31653,
   "title": "2 g 24K (999) gold bar",
-  "url": "https://dl.flipkart.com/s/UFA1sPuuuN"
+  "url": "https://dl.flipkart.com/s/UFA1sPuuuN",
+  "checked": "2026-10-04T14:45:00+05:30"
  },
  {
   "id": 2,
@@ -17,7 +18,8 @@
   "weight": 5,
   "price": 78642,
   "title": "5 g 24K (995) gold coin",
-  "url": "https://dl.flipkart.com/s/UGic87uuuN"
+  "url": "https://dl.flipkart.com/s/UGic87uuuN",
+  "checked": "2026-10-04T14:45:00+05:30"
  },
  {
   "id": 3,
@@ -27,7 +29,8 @@
   "weight": 10,
   "price": 158265,
   "title": "10 g 24K (999) gold bar",
-  "url": "https://dl.flipkart.com/s/UGM0BluuuN"
+  "url": "https://dl.flipkart.com/s/UGM0BluuuN",
+  "checked": "2026-10-04T14:45:00+05:30"
  },
  {
   "id": 4,
@@ -37,7 +40,8 @@
   "weight": 10,
   "price": 157850,
   "title": "10 g 24K (9999) gold bar",
-  "url": "https://dl.flipkart.com/s/UFcsWhuuuN"
+  "url": "https://dl.flipkart.com/s/UFcsWhuuuN",
+  "checked": "2026-10-04T14:45:00+05:30"
  },
  {
   "id": 5,
@@ -53,7 +57,8 @@
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  }
+  },
+  "checked": "2026-10-04T14:45:00+05:30"
  },
  {
   "id": 6,
@@ -69,7 +74,8 @@
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  }
+  },
+  "checked": "2026-10-04T14:45:00+05:30"
  },
  {
   "id": 7,
@@ -85,7 +91,8 @@
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  }
+  },
+  "checked": "2026-10-04T14:45:00+05:30"
  },
  {
   "id": 8,
@@ -101,7 +108,8 @@
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  }
+  },
+  "checked": "2026-10-04T14:45:00+05:30"
  },
  {
   "id": 9,
@@ -117,7 +125,8 @@
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  }
+  },
+  "checked": "2026-10-04T14:45:00+05:30"
  },
  {
   "id": 10,
@@ -133,7 +142,8 @@
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  }
+  },
+  "checked": "2026-10-04T14:45:00+05:30"
  },
  {
   "id": 11,
@@ -149,7 +159,8 @@
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  }
+  },
+  "checked": "2026-10-04T14:45:00+05:30"
  },
  {
   "id": 12,
@@ -165,6 +176,7 @@
    "type": "pct",
    "value": 6,
    "note": "Applies only when BLINKDEAL6 is switched live"
-  }
+  },
+  "checked": "2026-10-04T14:45:00+05:30"
  }
 ]

@@ -1,0 +1,44 @@
+{
+  "siteName": "GoldRadar",
+  "stores": [
+    "Myntra",
+    "Ajio",
+    "Flipkart",
+    "Shopsy",
+    "Amazon"
+  ],
+  "affiliate": {
+    "Amazon": {
+      "param": "tag",
+      "value": "",
+      "subParam": "ascsubtag"
+    },
+    "Flipkart": {
+      "param": "affid",
+      "value": "",
+      "extra": {},
+      "subParam": "affExtParam1"
+    },
+    "Shopsy": {
+      "param": "affid",
+      "value": "",
+      "extra": {},
+      "subParam": "affExtParam1"
+    },
+    "Myntra": {
+      "template": ""
+    },
+    "Ajio": {
+      "template": ""
+    }
+  },
+  "rates": {
+    "indiaPremiumPct": 16.7,
+    "note": "Gold rate = international price x USD/INR + premium for duty, GST and local margin. Tune indiaPremiumPct until it matches the Indian retail rate you trust, or fill 'manual' in data/rates.json."
+  },
+  "supabase": {
+    "url": "",
+    "anonKey": ""
+  },
+  "listingsAreSample": true
+}

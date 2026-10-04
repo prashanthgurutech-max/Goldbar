@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GoldRadar – Gold coin and bar prices across Indian stores</title>
+<meta name="description" content="Compare 24K, 22K, 18K and 14K gold coin and bar prices from 1g to 20g across Myntra, Ajio, Flipkart, Shopsy and Amazon, with coupons and bank offers applied.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head><body>
+<header class="top"><div class="wrap bar">
+  <div class="brand"><span class="dot"></span><b id="siteName">GoldRadar</b><span class="chip">BETA</span></div>
+  <div class="live"><span id="liveRate"></span><span class="mut" id="liveAge"></span></div>
+</div></header>
+<main class="wrap">
+  <div id="sampleBanner" class="banner" hidden>Sample data. Prices below are made up to show the layout. Real store prices are not connected yet.</div>
+
+  <section id="rates" class="rates"></section>
+  <div id="offerStatus" class="offerstat"></div>
+
+  <section class="controls">
+    <div class="line"><span class="lab">KARAT</span><div class="seg" id="karatSeg"></div></div>
+    <div class="line"><span class="lab">WEIGHT</span><div class="chips" id="weightChips"></div></div>
+    <div class="line"><span class="lab">STORE</span><div class="chips" id="storeChips"></div></div>
+    <div class="line opts">
+      <label class="tog"><input type="checkbox" id="optCoupon" checked><i></i>Apply coupons</label>
+      <label class="tog"><input type="checkbox" id="optBank" checked><i></i>Apply bank offers</label>
+      <label class="sortl">Sort <select id="sortSel"><option value="final">Lowest final price</option><option value="perg">Lowest ₹/g pure</option><option value="save">Biggest saving</option></select></label>
+    </div>
+  </section>
+
+  <section id="best"></section>
+  <section><h2>Cheapest at each weight <small id="cheapSub"></small></h2><div class="cheap" id="cheapRow"></div></section>
+  <section><h2 id="listHead">Deals</h2><div id="listCount" class="mut"></div><div class="grid" id="grid"></div></section>
+  <section><h2>Store comparison <small>best final price for each store, selected karat</small></h2><div class="tablewrap"><table id="cmp"></table></div></section>
+  <section><h2>Market value, 1 g to 20 g <small>what the gold itself is worth at today's rate</small></h2><div class="tablewrap"><table id="mv"></table></div></section>
+  <section><h2>Rate history <small>last 30 days</small></h2>
+    <div class="seg" id="histSeg"><button data-m="g24" class="on">Gold 24K / g</button><button data-m="s">Silver / kg</button></div>
+    <div id="hist" class="hist"></div></section>
+  <footer>
+    <p id="affNote">Store links may be affiliate links. We may earn a commission at no extra cost to you.</p>
+    <p>Prices are indicative and change often. Check the final price, coupon and stock on the store before buying. This is not investment advice.</p>
+  </footer>
+</main>
+<script src="track.js"></script>
+<script src="app.js"></script>
+</body></html>

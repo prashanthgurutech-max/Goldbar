@@ -1,0 +1,5475 @@
+[
+{
+"id": 1,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 1,
+"price": 16181,
+"title": "1 g 24K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 2,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 4,
+"price": 63473,
+"title": "4 g 24K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 3,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 5,
+"price": 79104,
+"title": "5 g 24K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 4,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 6,
+"price": 94391,
+"title": "6 g 24K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 5,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 7,
+"price": 109930,
+"title": "7 g 24K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 6,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 9,
+"price": 140580,
+"title": "9 g 24K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 7,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 10,
+"price": 156964,
+"title": "10 g 24K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 8,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 11,
+"price": 173571,
+"title": "11 g 24K gold bar",
+"url": "https://example.com/myntra"
+},
+{
+"id": 9,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 12,
+"price": 187901,
+"title": "12 g 24K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 10,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 13,
+"price": 202885,
+"title": "13 g 24K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 11,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 14,
+"price": 218405,
+"title": "14 g 24K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 12,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 15,
+"price": 234088,
+"title": "15 g 24K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 13,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 16,
+"price": 250696,
+"title": "16 g 24K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 14,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 17,
+"price": 266488,
+"title": "17 g 24K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 15,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 18,
+"price": 283174,
+"title": "18 g 24K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 16,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 19,
+"price": 296676,
+"title": "19 g 24K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 17,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 20,
+"price": 311214,
+"title": "20 g 24K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 18,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 2,
+"price": 29087,
+"title": "2 g 22K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 19,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 4,
+"price": 57594,
+"title": "4 g 22K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 20,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 5,
+"price": 72078,
+"title": "5 g 22K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 21,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 6,
+"price": 86169,
+"title": "6 g 22K gold coin",
+"url": "https://example.com/myntra"
+},
+{
+"id": 22,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 7,
+"price": 100966,
+"title": "7 g 22K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 23,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 8,
+"price": 115720,
+"title": "8 g 22K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 24,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 9,
+"price": 128655,
+"title": "9 g 22K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 25,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 10,
+"price": 144801,
+"title": "10 g 22K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 26,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 11,
+"price": 157192,
+"title": "11 g 22K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 27,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 12,
+"price": 172085,
+"title": "12 g 22K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 28,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 13,
+"price": 186260,
+"title": "13 g 22K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 29,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 14,
+"price": 201819,
+"title": "14 g 22K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 30,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 15,
+"price": 216090,
+"title": "15 g 22K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 31,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 16,
+"price": 230384,
+"title": "16 g 22K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 32,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 17,
+"price": 242698,
+"title": "17 g 22K gold bar",
+"url": "https://example.com/myntra"
+},
+{
+"id": 33,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 18,
+"price": 259837,
+"title": "18 g 22K gold bar",
+"url": "https://example.com/myntra"
+},
+{
+"id": 34,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 19,
+"price": 271208,
+"title": "19 g 22K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 35,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 20,
+"price": 286562,
+"title": "20 g 22K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 36,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 1,
+"price": 12146,
+"title": "1 g 18K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 37,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 2,
+"price": 24088,
+"title": "2 g 18K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 38,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 3,
+"price": 35541,
+"title": "3 g 18K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 39,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 4,
+"price": 47802,
+"title": "4 g 18K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 40,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 5,
+"price": 58823,
+"title": "5 g 18K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 41,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 6,
+"price": 70541,
+"title": "6 g 18K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 42,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 7,
+"price": 83040,
+"title": "7 g 18K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 43,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 8,
+"price": 94404,
+"title": "8 g 18K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 44,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 9,
+"price": 106400,
+"title": "9 g 18K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 45,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 10,
+"price": 117610,
+"title": "10 g 18K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 46,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 11,
+"price": 128930,
+"title": "11 g 18K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 47,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 12,
+"price": 140733,
+"title": "12 g 18K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 48,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 13,
+"price": 153751,
+"title": "13 g 18K gold bar",
+"url": "https://example.com/myntra"
+},
+{
+"id": 49,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 14,
+"price": 165267,
+"title": "14 g 18K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 50,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 15,
+"price": 176159,
+"title": "15 g 18K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 51,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 16,
+"price": 188903,
+"title": "16 g 18K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 52,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 17,
+"price": 198437,
+"title": "17 g 18K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 53,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 18,
+"price": 211363,
+"title": "18 g 18K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 54,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 19,
+"price": 222792,
+"title": "19 g 18K gold bar",
+"url": "https://example.com/myntra"
+},
+{
+"id": 55,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 1,
+"price": 9362,
+"title": "1 g 14K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 56,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 2,
+"price": 18693,
+"title": "2 g 14K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 57,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 3,
+"price": 27780,
+"title": "3 g 14K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 58,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 4,
+"price": 36920,
+"title": "4 g 14K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 59,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 5,
+"price": 46057,
+"title": "5 g 14K gold coin",
+"url": "https://example.com/myntra"
+},
+{
+"id": 60,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 6,
+"price": 54908,
+"title": "6 g 14K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 61,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 7,
+"price": 64210,
+"title": "7 g 14K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 62,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 8,
+"price": 73050,
+"title": "8 g 14K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 63,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 9,
+"price": 82036,
+"title": "9 g 14K gold coin",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 64,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 10,
+"price": 91222,
+"title": "10 g 14K gold coin",
+"url": "https://example.com/myntra"
+},
+{
+"id": 65,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 11,
+"price": 101356,
+"title": "11 g 14K gold bar",
+"url": "https://example.com/myntra"
+},
+{
+"id": 66,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 12,
+"price": 110032,
+"title": "12 g 14K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 67,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 13,
+"price": 118867,
+"title": "13 g 14K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 68,
+"store": "Myntra",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 14,
+"price": 127127,
+"title": "14 g 14K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 69,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 15,
+"price": 136884,
+"title": "15 g 14K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 70,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 16,
+"price": 145634,
+"title": "16 g 14K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 71,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 17,
+"price": 154527,
+"title": "17 g 14K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 72,
+"store": "Myntra",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 18,
+"price": 165272,
+"title": "18 g 14K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 73,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 19,
+"price": 173123,
+"title": "19 g 14K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 74,
+"store": "Myntra",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 20,
+"price": 181426,
+"title": "20 g 14K gold bar",
+"url": "https://example.com/myntra",
+"coupon": {
+"code": "BLINKDEAL6",
+"type": "pct",
+"value": 6,
+"max": 2000,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 75,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 1,
+"price": 16120,
+"title": "1 g 24K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 76,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 2,
+"price": 32231,
+"title": "2 g 24K gold coin",
+"url": "https://example.com/ajio"
+},
+{
+"id": 77,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 3,
+"price": 48016,
+"title": "3 g 24K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 78,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 4,
+"price": 63298,
+"title": "4 g 24K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 79,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 5,
+"price": 79291,
+"title": "5 g 24K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 80,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 7,
+"price": 111326,
+"title": "7 g 24K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 81,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 8,
+"price": 127087,
+"title": "8 g 24K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 82,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 9,
+"price": 141465,
+"title": "9 g 24K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 83,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 10,
+"price": 158299,
+"title": "10 g 24K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 84,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 12,
+"price": 190237,
+"title": "12 g 24K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 85,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 13,
+"price": 203276,
+"title": "13 g 24K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 86,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 14,
+"price": 221261,
+"title": "14 g 24K gold bar",
+"url": "https://example.com/ajio"
+},
+{
+"id": 87,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 15,
+"price": 234747,
+"title": "15 g 24K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 88,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 16,
+"price": 252193,
+"title": "16 g 24K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 89,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 17,
+"price": 268990,
+"title": "17 g 24K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 90,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 18,
+"price": 284290,
+"title": "18 g 24K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 91,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 20,
+"price": 315670,
+"title": "20 g 24K gold bar",
+"url": "https://example.com/ajio"
+},
+{
+"id": 92,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 1,
+"price": 14909,
+"title": "1 g 22K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 93,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 2,
+"price": 29347,
+"title": "2 g 22K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 94,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 3,
+"price": 44136,
+"title": "3 g 22K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 95,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 4,
+"price": 58063,
+"title": "4 g 22K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 96,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 5,
+"price": 72168,
+"title": "5 g 22K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 97,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 6,
+"price": 87012,
+"title": "6 g 22K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 98,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 7,
+"price": 100828,
+"title": "7 g 22K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 99,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 9,
+"price": 129563,
+"title": "9 g 22K gold coin",
+"url": "https://example.com/ajio"
+},
+{
+"id": 100,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 10,
+"price": 143683,
+"title": "10 g 22K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 101,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 11,
+"price": 159423,
+"title": "11 g 22K gold bar",
+"url": "https://example.com/ajio"
+},
+{
+"id": 102,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 12,
+"price": 173715,
+"title": "12 g 22K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 103,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 13,
+"price": 188074,
+"title": "13 g 22K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 104,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 14,
+"price": 202753,
+"title": "14 g 22K gold bar",
+"url": "https://example.com/ajio"
+},
+{
+"id": 105,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 15,
+"price": 216349,
+"title": "15 g 22K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 106,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 16,
+"price": 231831,
+"title": "16 g 22K gold bar",
+"url": "https://example.com/ajio"
+},
+{
+"id": 107,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 17,
+"price": 243226,
+"title": "17 g 22K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 108,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 18,
+"price": 257536,
+"title": "18 g 22K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 109,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 19,
+"price": 273945,
+"title": "19 g 22K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 110,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 20,
+"price": 287548,
+"title": "20 g 22K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 111,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 1,
+"price": 12170,
+"title": "1 g 18K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 112,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 2,
+"price": 24021,
+"title": "2 g 18K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 113,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 3,
+"price": 35988,
+"title": "3 g 18K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 114,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 4,
+"price": 47639,
+"title": "4 g 18K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 115,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 5,
+"price": 59229,
+"title": "5 g 18K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 116,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 6,
+"price": 70731,
+"title": "6 g 18K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 117,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 7,
+"price": 83186,
+"title": "7 g 18K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 118,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 10,
+"price": 118488,
+"title": "10 g 18K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 119,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 11,
+"price": 130328,
+"title": "11 g 18K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 120,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 12,
+"price": 140825,
+"title": "12 g 18K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 121,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 13,
+"price": 154396,
+"title": "13 g 18K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 122,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 15,
+"price": 178161,
+"title": "15 g 18K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 123,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 16,
+"price": 189788,
+"title": "16 g 18K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 124,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 17,
+"price": 200344,
+"title": "17 g 18K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 125,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 18,
+"price": 212017,
+"title": "18 g 18K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 126,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 19,
+"price": 225064,
+"title": "19 g 18K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 127,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 20,
+"price": 237038,
+"title": "20 g 18K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 128,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 1,
+"price": 9410,
+"title": "1 g 14K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 129,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 2,
+"price": 18643,
+"title": "2 g 14K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 130,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 3,
+"price": 27724,
+"title": "3 g 14K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 131,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 4,
+"price": 36938,
+"title": "4 g 14K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 132,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 5,
+"price": 46474,
+"title": "5 g 14K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 133,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 6,
+"price": 55178,
+"title": "6 g 14K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 134,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 8,
+"price": 73802,
+"title": "8 g 14K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 135,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 9,
+"price": 82799,
+"title": "9 g 14K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 136,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 10,
+"price": 91816,
+"title": "10 g 14K gold coin",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 137,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 11,
+"price": 101680,
+"title": "11 g 14K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 138,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 12,
+"price": 109414,
+"title": "12 g 14K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 139,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 13,
+"price": 118636,
+"title": "13 g 14K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 140,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 14,
+"price": 128512,
+"title": "14 g 14K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 141,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 15,
+"price": 137109,
+"title": "15 g 14K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 142,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 16,
+"price": 146440,
+"title": "16 g 14K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 143,
+"store": "Ajio",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 17,
+"price": 155515,
+"title": "17 g 14K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 144,
+"store": "Ajio",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 19,
+"price": 174821,
+"title": "19 g 14K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 145,
+"store": "Ajio",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 20,
+"price": 184493,
+"title": "20 g 14K gold bar",
+"url": "https://example.com/ajio",
+"coupon": {
+"code": "SAMPLE5",
+"type": "pct",
+"value": 5,
+"max": 1500,
+"note": "Coupon (sample)"
+}
+},
+{
+"id": 146,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 1,
+"price": 15827,
+"title": "1 g 24K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 147,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 3,
+"price": 46637,
+"title": "3 g 24K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 148,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 5,
+"price": 77439,
+"title": "5 g 24K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 149,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 6,
+"price": 92706,
+"title": "6 g 24K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 150,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 7,
+"price": 108051,
+"title": "7 g 24K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 151,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 8,
+"price": 124318,
+"title": "8 g 24K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 152,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 9,
+"price": 138704,
+"title": "9 g 24K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 153,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 10,
+"price": 155112,
+"title": "10 g 24K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 154,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 11,
+"price": 170291,
+"title": "11 g 24K gold bar",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 155,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 12,
+"price": 183682,
+"title": "12 g 24K gold bar",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 156,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 13,
+"price": 199436,
+"title": "13 g 24K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 157,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 14,
+"price": 217109,
+"title": "14 g 24K gold bar",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 158,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 15,
+"price": 231358,
+"title": "15 g 24K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 159,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 16,
+"price": 244218,
+"title": "16 g 24K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 160,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 17,
+"price": 262019,
+"title": "17 g 24K gold bar",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 161,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 18,
+"price": 276844,
+"title": "18 g 24K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 162,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 1,
+"price": 14583,
+"title": "1 g 22K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 163,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 2,
+"price": 28548,
+"title": "2 g 22K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 164,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 3,
+"price": 43212,
+"title": "3 g 22K gold coin",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 165,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 4,
+"price": 57045,
+"title": "4 g 22K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 166,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 5,
+"price": 71340,
+"title": "5 g 22K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 167,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 6,
+"price": 85701,
+"title": "6 g 22K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 168,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 7,
+"price": 99519,
+"title": "7 g 22K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 169,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 9,
+"price": 127217,
+"title": "9 g 22K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 170,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 11,
+"price": 156296,
+"title": "11 g 22K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 171,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 12,
+"price": 169004,
+"title": "12 g 22K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 172,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 13,
+"price": 184278,
+"title": "13 g 22K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 173,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 14,
+"price": 197904,
+"title": "14 g 22K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 174,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 15,
+"price": 210132,
+"title": "15 g 22K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 175,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 16,
+"price": 224610,
+"title": "16 g 22K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 176,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 19,
+"price": 269342,
+"title": "19 g 22K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 177,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 20,
+"price": 283593,
+"title": "20 g 22K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 178,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 1,
+"price": 11921,
+"title": "1 g 18K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 179,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 2,
+"price": 23493,
+"title": "2 g 18K gold coin",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 180,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 3,
+"price": 34897,
+"title": "3 g 18K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 181,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 4,
+"price": 46982,
+"title": "4 g 18K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 182,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 5,
+"price": 58077,
+"title": "5 g 18K gold coin",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 183,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 6,
+"price": 69218,
+"title": "6 g 18K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 184,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 7,
+"price": 81146,
+"title": "7 g 18K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 185,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 8,
+"price": 92042,
+"title": "8 g 18K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 186,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 9,
+"price": 104061,
+"title": "9 g 18K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 187,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 11,
+"price": 126716,
+"title": "11 g 18K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 188,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 12,
+"price": 138387,
+"title": "12 g 18K gold bar",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 189,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 13,
+"price": 149609,
+"title": "13 g 18K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 190,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 14,
+"price": 161135,
+"title": "14 g 18K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 191,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 15,
+"price": 173483,
+"title": "15 g 18K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 192,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 16,
+"price": 184525,
+"title": "16 g 18K gold bar",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 193,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 17,
+"price": 195309,
+"title": "17 g 18K gold bar",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 194,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 18,
+"price": 207530,
+"title": "18 g 18K gold bar",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 195,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 19,
+"price": 220113,
+"title": "19 g 18K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 196,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 20,
+"price": 229831,
+"title": "20 g 18K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 197,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 1,
+"price": 9270,
+"title": "1 g 14K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 198,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 2,
+"price": 18185,
+"title": "2 g 14K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 199,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 3,
+"price": 27164,
+"title": "3 g 14K gold coin",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 200,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 4,
+"price": 36155,
+"title": "4 g 14K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 201,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 5,
+"price": 45596,
+"title": "5 g 14K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 202,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 6,
+"price": 54181,
+"title": "6 g 14K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 203,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 7,
+"price": 63434,
+"title": "7 g 14K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 204,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 8,
+"price": 71867,
+"title": "8 g 14K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 205,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 9,
+"price": 80678,
+"title": "9 g 14K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 206,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 10,
+"price": 89689,
+"title": "10 g 14K gold coin",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 207,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 12,
+"price": 107438,
+"title": "12 g 14K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 208,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 13,
+"price": 117073,
+"title": "13 g 14K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 209,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 14,
+"price": 126348,
+"title": "14 g 14K gold bar",
+"url": "https://example.com/flipkart"
+},
+{
+"id": 210,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 16,
+"price": 142724,
+"title": "16 g 14K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 211,
+"store": "Flipkart",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 17,
+"price": 151772,
+"title": "17 g 14K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 212,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 18,
+"price": 161293,
+"title": "18 g 14K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 213,
+"store": "Flipkart",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 19,
+"price": 169031,
+"title": "19 g 14K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 214,
+"store": "Flipkart",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 20,
+"price": 178472,
+"title": "20 g 14K gold bar",
+"url": "https://example.com/flipkart",
+"bank": {
+"label": "10% off, sample bank card",
+"type": "pct",
+"value": 10,
+"max": 1000
+}
+},
+{
+"id": 215,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 2,
+"price": 31101,
+"title": "2 g 24K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 216,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 3,
+"price": 46370,
+"title": "3 g 24K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 217,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 4,
+"price": 62202,
+"title": "4 g 24K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 218,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 5,
+"price": 77488,
+"title": "5 g 24K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 219,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 6,
+"price": 92994,
+"title": "6 g 24K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 220,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 8,
+"price": 123758,
+"title": "8 g 24K gold coin",
+"url": "https://example.com/shopsy"
+},
+{
+"id": 221,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 9,
+"price": 138506,
+"title": "9 g 24K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 222,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 10,
+"price": 153635,
+"title": "10 g 24K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 223,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 11,
+"price": 170063,
+"title": "11 g 24K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 224,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 12,
+"price": 183698,
+"title": "12 g 24K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 225,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 13,
+"price": 198626,
+"title": "13 g 24K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 226,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 14,
+"price": 214975,
+"title": "14 g 24K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 227,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 16,
+"price": 246825,
+"title": "16 g 24K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 228,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 17,
+"price": 260391,
+"title": "17 g 24K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 229,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 18,
+"price": 274724,
+"title": "18 g 24K gold bar",
+"url": "https://example.com/shopsy"
+},
+{
+"id": 230,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 20,
+"price": 308167,
+"title": "20 g 24K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 231,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 1,
+"price": 14437,
+"title": "1 g 22K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 232,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 2,
+"price": 28772,
+"title": "2 g 22K gold coin",
+"url": "https://example.com/shopsy"
+},
+{
+"id": 233,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 3,
+"price": 43042,
+"title": "3 g 22K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 234,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 4,
+"price": 57019,
+"title": "4 g 22K gold coin",
+"url": "https://example.com/shopsy"
+},
+{
+"id": 235,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 5,
+"price": 70629,
+"title": "5 g 22K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 236,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 6,
+"price": 84576,
+"title": "6 g 22K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 237,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 7,
+"price": 99415,
+"title": "7 g 22K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 238,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 8,
+"price": 113554,
+"title": "8 g 22K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 239,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 9,
+"price": 126909,
+"title": "9 g 22K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 240,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 10,
+"price": 140720,
+"title": "10 g 22K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 241,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 11,
+"price": 154893,
+"title": "11 g 22K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 242,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 12,
+"price": 167915,
+"title": "12 g 22K gold bar",
+"url": "https://example.com/shopsy"
+},
+{
+"id": 243,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 13,
+"price": 183026,
+"title": "13 g 22K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 244,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 14,
+"price": 196196,
+"title": "14 g 22K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 245,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 16,
+"price": 224706,
+"title": "16 g 22K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 246,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 17,
+"price": 237459,
+"title": "17 g 22K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 247,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 18,
+"price": 254265,
+"title": "18 g 22K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 248,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 19,
+"price": 268806,
+"title": "19 g 22K gold bar",
+"url": "https://example.com/shopsy"
+},
+{
+"id": 249,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 20,
+"price": 282716,
+"title": "20 g 22K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 250,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 1,
+"price": 11839,
+"title": "1 g 18K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 251,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 2,
+"price": 23598,
+"title": "2 g 18K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 252,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 3,
+"price": 34807,
+"title": "3 g 18K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 253,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 4,
+"price": 46438,
+"title": "4 g 18K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 254,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 5,
+"price": 57752,
+"title": "5 g 18K gold coin",
+"url": "https://example.com/shopsy"
+},
+{
+"id": 255,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 6,
+"price": 69668,
+"title": "6 g 18K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 256,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 7,
+"price": 80474,
+"title": "7 g 18K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 257,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 8,
+"price": 92219,
+"title": "8 g 18K gold coin",
+"url": "https://example.com/shopsy"
+},
+{
+"id": 258,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 9,
+"price": 104473,
+"title": "9 g 18K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 259,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 11,
+"price": 127871,
+"title": "11 g 18K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 260,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 12,
+"price": 139238,
+"title": "12 g 18K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 261,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 13,
+"price": 150706,
+"title": "13 g 18K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 262,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 14,
+"price": 162564,
+"title": "14 g 18K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 263,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 15,
+"price": 171656,
+"title": "15 g 18K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 264,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 16,
+"price": 182939,
+"title": "16 g 18K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 265,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 17,
+"price": 197167,
+"title": "17 g 18K gold bar",
+"url": "https://example.com/shopsy"
+},
+{
+"id": 266,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 18,
+"price": 207891,
+"title": "18 g 18K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 267,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 19,
+"price": 218981,
+"title": "19 g 18K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 268,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 20,
+"price": 228405,
+"title": "20 g 18K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 269,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 1,
+"price": 9184,
+"title": "1 g 14K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 270,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 2,
+"price": 18278,
+"title": "2 g 14K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 271,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 3,
+"price": 27291,
+"title": "3 g 14K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 272,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 4,
+"price": 36026,
+"title": "4 g 14K gold coin",
+"url": "https://example.com/shopsy"
+},
+{
+"id": 273,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 5,
+"price": 44922,
+"title": "5 g 14K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 274,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 6,
+"price": 54248,
+"title": "6 g 14K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 275,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 7,
+"price": 62566,
+"title": "7 g 14K gold coin",
+"url": "https://example.com/shopsy"
+},
+{
+"id": 276,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 8,
+"price": 72079,
+"title": "8 g 14K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 277,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 9,
+"price": 81192,
+"title": "9 g 14K gold coin",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 278,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 13,
+"price": 115948,
+"title": "13 g 14K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 279,
+"store": "Shopsy",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 14,
+"price": 126342,
+"title": "14 g 14K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 280,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 15,
+"price": 134687,
+"title": "15 g 14K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 281,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 16,
+"price": 142568,
+"title": "16 g 14K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 282,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 17,
+"price": 153376,
+"title": "17 g 14K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 283,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 18,
+"price": 159865,
+"title": "18 g 14K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 284,
+"store": "Shopsy",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 19,
+"price": 170652,
+"title": "19 g 14K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 285,
+"store": "Shopsy",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 20,
+"price": 178245,
+"title": "20 g 14K gold bar",
+"url": "https://example.com/shopsy",
+"bank": {
+"label": "5% off, sample bank card",
+"type": "pct",
+"value": 5,
+"max": 500
+}
+},
+{
+"id": 286,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 1,
+"price": 16098,
+"title": "1 g 24K gold coin",
+"url": "https://example.com/amazon"
+},
+{
+"id": 287,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 2,
+"price": 31467,
+"title": "2 g 24K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 288,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 3,
+"price": 47468,
+"title": "3 g 24K gold coin",
+"url": "https://example.com/amazon"
+},
+{
+"id": 289,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 4,
+"price": 63216,
+"title": "4 g 24K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 290,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 5,
+"price": 77933,
+"title": "5 g 24K gold coin",
+"url": "https://example.com/amazon"
+},
+{
+"id": 291,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 6,
+"price": 93347,
+"title": "6 g 24K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 292,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 7,
+"price": 109503,
+"title": "7 g 24K gold coin",
+"url": "https://example.com/amazon"
+},
+{
+"id": 293,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 8,
+"price": 125190,
+"title": "8 g 24K gold coin",
+"url": "https://example.com/amazon"
+},
+{
+"id": 294,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 9,
+"price": 140241,
+"title": "9 g 24K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 295,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 10,
+"price": 155624,
+"title": "10 g 24K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 296,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 11,
+"price": 172005,
+"title": "11 g 24K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 297,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 13,
+"price": 201059,
+"title": "13 g 24K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 298,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 14,
+"price": 216488,
+"title": "14 g 24K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 299,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 24,
+"weight": 16,
+"price": 249075,
+"title": "16 g 24K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 300,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 17,
+"price": 262204,
+"title": "17 g 24K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 301,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 24,
+"weight": 18,
+"price": 281378,
+"title": "18 g 24K gold bar",
+"url": "https://example.com/amazon"
+},
+{
+"id": 302,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 24,
+"weight": 20,
+"price": 312287,
+"title": "20 g 24K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 303,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 1,
+"price": 14616,
+"title": "1 g 22K gold coin",
+"url": "https://example.com/amazon"
+},
+{
+"id": 304,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 2,
+"price": 29153,
+"title": "2 g 22K gold coin",
+"url": "https://example.com/amazon"
+},
+{
+"id": 305,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 3,
+"price": 43182,
+"title": "3 g 22K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 306,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 4,
+"price": 57700,
+"title": "4 g 22K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 307,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 5,
+"price": 71275,
+"title": "5 g 22K gold coin",
+"url": "https://example.com/amazon"
+},
+{
+"id": 308,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 7,
+"price": 100853,
+"title": "7 g 22K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 309,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 8,
+"price": 114627,
+"title": "8 g 22K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 310,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 10,
+"price": 141911,
+"title": "10 g 22K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 311,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 11,
+"price": 156288,
+"title": "11 g 22K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 312,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 12,
+"price": 170979,
+"title": "12 g 22K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 313,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 13,
+"price": 186683,
+"title": "13 g 22K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 314,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 15,
+"price": 214724,
+"title": "15 g 22K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 315,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 16,
+"price": 227868,
+"title": "16 g 22K gold bar",
+"url": "https://example.com/amazon"
+},
+{
+"id": 316,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 22,
+"weight": 17,
+"price": 240910,
+"title": "17 g 22K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 317,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 18,
+"price": 257867,
+"title": "18 g 22K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 318,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 22,
+"weight": 19,
+"price": 270544,
+"title": "19 g 22K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 319,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 22,
+"weight": 20,
+"price": 284009,
+"title": "20 g 22K gold bar",
+"url": "https://example.com/amazon"
+},
+{
+"id": 320,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 1,
+"price": 12015,
+"title": "1 g 18K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 321,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 2,
+"price": 23676,
+"title": "2 g 18K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 322,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 3,
+"price": 35652,
+"title": "3 g 18K gold coin",
+"url": "https://example.com/amazon"
+},
+{
+"id": 323,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 4,
+"price": 47171,
+"title": "4 g 18K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 324,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 5,
+"price": 58610,
+"title": "5 g 18K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 325,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 6,
+"price": 70324,
+"title": "6 g 18K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 326,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 7,
+"price": 81923,
+"title": "7 g 18K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 327,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 8,
+"price": 93561,
+"title": "8 g 18K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 328,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 9,
+"price": 104905,
+"title": "9 g 18K gold coin",
+"url": "https://example.com/amazon"
+},
+{
+"id": 329,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 10,
+"price": 117232,
+"title": "10 g 18K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 330,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 11,
+"price": 128133,
+"title": "11 g 18K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 331,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 12,
+"price": 141055,
+"title": "12 g 18K gold bar",
+"url": "https://example.com/amazon"
+},
+{
+"id": 332,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 13,
+"price": 151994,
+"title": "13 g 18K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 333,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 14,
+"price": 163959,
+"title": "14 g 18K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 334,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 15,
+"price": 173753,
+"title": "15 g 18K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 335,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 16,
+"price": 186290,
+"title": "16 g 18K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 336,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 18,
+"weight": 17,
+"price": 198570,
+"title": "17 g 18K gold bar",
+"url": "https://example.com/amazon"
+},
+{
+"id": 337,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 18,
+"price": 208017,
+"title": "18 g 18K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 338,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 18,
+"weight": 19,
+"price": 221968,
+"title": "19 g 18K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 339,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 18,
+"weight": 20,
+"price": 233255,
+"title": "20 g 18K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 340,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 1,
+"price": 9408,
+"title": "1 g 14K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 341,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 2,
+"price": 18531,
+"title": "2 g 14K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 342,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 3,
+"price": 27468,
+"title": "3 g 14K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 343,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 4,
+"price": 36794,
+"title": "4 g 14K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 344,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 5,
+"price": 45936,
+"title": "5 g 14K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 345,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 6,
+"price": 54662,
+"title": "6 g 14K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 346,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 7,
+"price": 64164,
+"title": "7 g 14K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 347,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 8,
+"price": 72801,
+"title": "8 g 14K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 348,
+"store": "Amazon",
+"brand": "Sample Mint",
+"karat": 14,
+"weight": 9,
+"price": 81415,
+"title": "9 g 14K gold coin",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 349,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 11,
+"price": 99955,
+"title": "11 g 14K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 350,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 13,
+"price": 117694,
+"title": "13 g 14K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 351,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 14,
+"price": 126379,
+"title": "14 g 14K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 352,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 15,
+"price": 136868,
+"title": "15 g 14K gold bar",
+"url": "https://example.com/amazon"
+},
+{
+"id": 353,
+"store": "Amazon",
+"brand": "Demo Refinery",
+"karat": 14,
+"weight": 16,
+"price": 143981,
+"title": "16 g 14K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 354,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 19,
+"price": 172343,
+"title": "19 g 14K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+},
+{
+"id": 355,
+"store": "Amazon",
+"brand": "Sample Bullion",
+"karat": 14,
+"weight": 20,
+"price": 180238,
+"title": "20 g 14K gold bar",
+"url": "https://example.com/amazon",
+"bank": {
+"label": "7.5% off, sample bank card",
+"type": "pct",
+"value": 7.5,
+"max": 1500
+}
+}
+]

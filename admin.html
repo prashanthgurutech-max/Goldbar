@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>GoldRadar admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.login{max-width:380px;margin:80px auto;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:grid;gap:12px}
+.login input{background:var(--card2);border:1px solid var(--line);color:var(--tx);border-radius:10px;padding:11px 12px;font:inherit}
+.err{color:var(--red);font-size:14px;min-height:20px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px}.kpi .k{font-size:12px;letter-spacing:.06em;color:var(--mut)}
+.kpi .v{font:700 28px Inter;color:var(--gold)}.kpi .u{font-size:13px;color:var(--mut)}
+.bars{display:flex;align-items:flex-end;gap:4px;height:180px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 14px 8px;margin-top:10px}
+.bars div{flex:1;background:var(--gold);border-radius:4px 4px 0 0;min-height:2px;position:relative}.bars div.z{background:#2b3243}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:14px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px}.panel h3{font-size:14px;color:var(--mut);margin-bottom:8px;letter-spacing:.04em}
+.rowb{display:grid;grid-template-columns:110px 1fr 44px;gap:8px;align-items:center;font-size:14px;margin:6px 0}.rowb i{display:block;height:10px;background:var(--gold2);border-radius:6px}
+.rowb span:last-child{text-align:right;font-variant-numeric:tabular-nums}
+@media(max-width:700px){.kpis{grid-template-columns:repeat(2,1fr)}}
+</style></head><body>
+<header class="top"><div class="wrap bar"><div class="brand"><span class="dot"></span><b>GoldRadar admin</b></div><button class="chip" id="out" hidden>Sign out</button></div></header>
+<main class="wrap"><div id="app"></div></main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="admin.js"></script></body></html>

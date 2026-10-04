@@ -87,3 +87,13 @@ You see: today, last 7 days, last 30 days and all-time visits with unique visito
 - **What you pay** box on every listing: listed price, coupon, bank offer, final price, gold value and premium.
 - **calc.html**: how much gold can I buy, gold vs silver, monthly savings plan, gold loan EMI.
 - **guide.html**: buying guide in English and Telugu.
+
+## Version 3 features
+- **Languages**: English, Telugu, Hindi, Tamil, Kannada (dropdown top right, or `?lang=hi`). All text lives in `translations.js` as rows `[english, telugu, hindi, tamil, kannada]`. Have a native speaker check the wording.
+- **City rates**: `data/cities.json`. Each city has `adjust24` (rupees per gram added to the national 24K rate) and `adjustSilverKg`. All start at 0. Check a local jeweller rate and edit the numbers. They show as estimates.
+- **Festival mode**: `data/festivals.json` lists festivals and dates (checked 4 Oct 2026). A countdown always shows; the "Best deals" strip appears within `dealsWindowDays` (45) of a festival. Add more festivals as `{name, date}`.
+- **Verified brand badge**: `data/verified.json`. Set `"verified": true` for a brand only after you have seen its certificate or the seller's authorisation. The badge shows on cards, the compare table, the gift picker and the festival deals.
+- **Compare**: tap Compare on any two listings for a side-by-side table.
+- **Gift picker** (gift.html): budget + occasion, picks from 24K listings by most gold, lowest premium and verified brand.
+- **Gold tracker** (tracker.html): private, saved only in the visitor's browser, with backup download and restore.
+- **Charts**: 1M / 3M / 1Y / All and Gold vs silver (both start at 100). The updater now keeps 400 days. Days before real updates began are labelled sample.

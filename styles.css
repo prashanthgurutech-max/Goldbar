@@ -86,3 +86,27 @@ body{font-family:Inter,"Noto Sans Telugu",system-ui,sans-serif}
 .guide-te{display:none}html[lang=te] .guide-en{display:none}html[lang=te] .guide-te{display:block}
 html[lang=te] *{letter-spacing:normal!important}html[lang=te] .rate .k,html[lang=te] .lab{text-transform:none}
 .bar .lang{margin-left:8px}
+
+/* v3 */
+.cityrow{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:18px;font-size:14px}.cityrow label{display:flex;gap:8px;align-items:center;color:var(--mut)}
+tr.sel td{background:rgba(228,184,91,.12)}#cityTable tr[data-city]{cursor:pointer}
+.fest{margin-top:12px;background:linear-gradient(90deg,rgba(228,184,91,.16),rgba(228,184,91,.04));border:1px solid var(--gold2);border-radius:var(--r);padding:10px 14px;font-size:14px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.fest a{color:var(--gold);text-decoration:none;font-weight:600}
+.ver{font-size:12px;color:var(--green);font-weight:600}
+.cmpbtn{margin-top:6px;background:none;border:1px dashed var(--line);border-radius:10px;padding:6px;font-size:13px;color:var(--mut)}.cmpbtn.on{border-color:var(--gold);color:var(--gold)}
+.cmpdock{position:sticky;bottom:0;z-index:6;margin-top:16px}
+.cmpbar,.cmpbox{background:#12151df2;backdrop-filter:blur(8px);border:1px solid var(--gold2);border-radius:var(--r);padding:10px 14px}
+.cmpbar{display:flex;gap:10px;align-items:center}.cmphead{display:flex;justify-content:space-between;margin-bottom:6px}
+.cmpdock button{background:var(--card2);border:1px solid var(--line);border-radius:99px;padding:4px 12px;font-size:13px}
+.cmpbox table{min-width:420px}.cmpbox th{text-align:left;position:static}.cmpbox td{text-align:right}.cmpbox a.buy{display:inline-block;border:1px solid var(--gold2);color:var(--gold);padding:6px 10px;border-radius:10px;text-decoration:none;font-weight:600}
+.x{background:none;border:0;color:var(--mut);font-size:15px}.filebtn{cursor:pointer;color:var(--mut);text-decoration:underline}
+.page .btn{border:0;cursor:pointer;justify-self:start}
+.g{display:none}html[lang=en] .g-en,html[lang=te] .g-te,html[lang=hi] .g-hi,html[lang=ta] .g-ta,html[lang=kn] .g-kn{display:block}
+html:not([lang=en]) *{letter-spacing:normal!important}html:not([lang=en]) .rate .k,html:not([lang=en]) .lab{text-transform:none}
+.toolrow{display:none}
+@media(max-width:760px){
+ .bar{display:grid;grid-template-columns:1fr auto auto;gap:8px 8px;height:auto;padding:10px 16px;align-items:center}
+ .bar .live{grid-column:1/-1;grid-row:2;text-align:left;margin:0}.bar .lang{margin-left:0}
+ .toolrow{display:flex;gap:8px;overflow-x:auto;padding:10px 16px 0;scrollbar-width:none}.toolrow::-webkit-scrollbar{display:none}
+ .toolrow a{white-space:nowrap;background:var(--card2);border:1px solid var(--line);border-radius:99px;padding:6px 14px;color:var(--gold);text-decoration:none;font-size:13px;font-weight:600}
+}

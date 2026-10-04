@@ -74,3 +74,16 @@ One-time setup:
 5. To leave out your own visits, open the main site once on each of your devices with `?notrack=1` at the end of the address.
 
 You see: today, last 7 days, last 30 days and all-time visits with unique visitors; daily (30 days), weekly (12 weeks) and monthly (12 months) tables and bars; Buy clicks per store; most viewed weights and karats; phone vs desktop; and referrers. Times are IST. Visitors who turn on "Do Not Track" are not counted.
+
+## Pre-launch features
+- **Price checked time**: each listing shows "Price checked X ago" from its `checked` field in data/listings.json. After `staleHours` (24) it turns amber "may be outdated", after `expiredHours` (72) red "likely outdated". Update `checked` whenever you re-verify a price.
+- **About / Privacy / Disclaimer** pages (about.html, privacy.html, disclaimer.html) are templates. Read them and edit to suit you. They fill your contact from `contact` in data/config.json.
+- **Share and report**: every card has "Share on WhatsApp" (opens a chat with the product, price and a link back to the same karat/weight). "Report wrong price" appears once you set `"contact": {"whatsapp": "91XXXXXXXXXX", "email": ""}` in data/config.json.
+- **Add to home screen**: manifest.webmanifest and icons are included. On iPhone: Safari > Share > Add to Home Screen. On Android Chrome: menu > Install app.
+
+## Version 2 features
+- **Telugu toggle** (button top right, or `?lang=te`). English text is the key in `i18n.js`; add a pair to the `TE` list to translate more text.
+- **Buy now or wait?** badge compares today's 24K rate with the average of the last 30 real days. It stays hidden until 7 real days are saved (the updater marks real days with `r:1`; the sample days do not count).
+- **What you pay** box on every listing: listed price, coupon, bank offer, final price, gold value and premium.
+- **calc.html**: how much gold can I buy, gold vs silver, monthly savings plan, gold loan EMI.
+- **guide.html**: buying guide in English and Telugu.

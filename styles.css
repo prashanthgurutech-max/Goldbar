@@ -64,3 +64,24 @@ footer{margin:36px 0 40px;color:var(--mut);font-size:13px;display:grid;gap:8px}
 .hero .acts{justify-content:flex-start}.flinks{display:flex;gap:18px;flex-wrap:wrap}.flinks a{color:var(--gold);text-decoration:none}
 .page{max-width:760px;margin:0 auto;padding:24px 16px 60px}.page h1{font-family:Fraunces,serif;font-size:32px;margin:10px 0 6px}.page h2{font-size:20px;margin:26px 0 8px}
 .page p,.page li{color:#d9d5c8;margin:8px 0}.page ul{padding-left:20px}.page .mut{font-size:13px}.back{color:var(--gold);text-decoration:none;font-size:14px}
+
+/* v2: language, nav, signal, breakdown */
+body{font-family:Inter,"Noto Sans Telugu",system-ui,sans-serif}
+.topnav{display:flex;gap:18px;margin-left:auto;font-size:14px}.topnav a{color:var(--gold);text-decoration:none}
+.lang{background:var(--card2);border:1px solid var(--line);border-radius:99px;padding:6px 12px;font-size:13px;font-weight:600}
+@media(max-width:760px){.topnav{display:none}.bar{height:auto;padding:10px 0;flex-wrap:wrap}.live{margin-left:auto}}
+.sig{margin-top:12px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;font-size:14px}
+.sig.good{border-color:rgba(52,211,153,.5)}.sig.wait{border-color:rgba(248,113,113,.5)}.sig .mut{margin-top:6px;font-size:13px}
+.bd{margin-top:8px;font-size:13px;border-top:1px solid var(--line);padding-top:8px}.bd summary{cursor:pointer;color:var(--gold);font-weight:600}
+.bd .r{display:flex;justify-content:space-between;gap:12px;padding:3px 0;color:#d9d5c8}.bd .r.off{color:var(--green)}.bd .r.tot{font-weight:700;border-top:1px solid var(--line);margin-top:4px;padding-top:6px}
+.bd p{color:var(--mut);font-size:12px;margin-top:6px}
+.hero .bd{max-width:420px}
+/* calculators and guide */
+.calc{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:16px 0;display:grid;gap:12px}
+.calc h2{margin:0;font-size:20px}.calc label{display:grid;gap:4px;font-size:13px;color:var(--mut)}
+.calc input{background:var(--card2);color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:10px;font:inherit;width:100%}
+.calc .fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.calc .res{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}.calc .res div{background:var(--card2);border-radius:10px;padding:10px}
+.calc .res small{display:block;color:var(--mut);font-size:12px}.calc .res b{font:700 18px Inter;color:var(--gold);font-variant-numeric:tabular-nums}
+.guide-te{display:none}html[lang=te] .guide-en{display:none}html[lang=te] .guide-te{display:block}
+html[lang=te] *{letter-spacing:normal!important}html[lang=te] .rate .k,html[lang=te] .lab{text-transform:none}

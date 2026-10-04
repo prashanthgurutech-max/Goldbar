@@ -1,7 +1,7 @@
 {
- "mode": "sample",
- "updated": "2026-10-04T05:00:00+05:30",
- "gold24": 14975,
- "silver_kg": 195000,
- "source": "Sample values for layout testing"
+ "mode": "live",
+ "updated": "2026-10-04T14:03:35+05:30",
+ "gold24": 14973,
+ "silver_kg": 218796,
+ "source": "gold-api.com x open.er-api.com USD/INR 96.35, +16.7% premium (estimate)"
 }

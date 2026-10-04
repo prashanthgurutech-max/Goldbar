@@ -1,8 +1,8 @@
 {
  "BLINKDEAL6": {
   "store": "Myntra",
-  "live": false,
-  "checked": "2026-10-04T12:46:35+05:30",
+  "live": true,
+  "checked": "2026-10-04T14:13:14+05:30",
   "source": "manual"
  }
 }

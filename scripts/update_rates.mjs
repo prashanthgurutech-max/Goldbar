@@ -3,7 +3,15 @@
 // If data/rates.json contains a "manual" block, that wins:  "manual": {"gold24": 14975, "silver_kg": 195000}
 import { readFileSync, writeFileSync } from 'node:fs';
 const rd = f => JSON.parse(readFileSync(f, 'utf8'));
-const get = async u => { const r = await fetch(u); if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); };
+// Retries a few times, because the network on the runner sometimes fails for a few seconds.
+const get = async u => {
+  let err;
+  for (let i = 0; i < 5; i++) {
+    try { const r = await fetch(u, { signal: AbortSignal.timeout(20000) }); if (!r.ok) throw new Error(u + ' ' + r.status); return await r.json(); }
+    catch (e) { err = e; console.log('Attempt ' + (i + 1) + ' failed for ' + u + ': ' + (e.cause?.code || e.message)); await new Promise(r => setTimeout(r, 5000 * (i + 1))); }
+  }
+  throw err;
+};
 const OZ = 31.1035;
 const cfg = rd('data/config.json').rates || {};
 const gp = cfg.indiaPremiumPct ?? 0, sp = cfg.silverPremiumPct ?? gp;

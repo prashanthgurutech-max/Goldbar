@@ -47,7 +47,8 @@
     'This is an estimate using the price change you enter. Real prices can move either way.': 'మీరు ఇచ్చిన ధర మార్పుతో వేసిన అంచనా ఇది. నిజ ధరలు రెండు వైపులా మారవచ్చు.',
     'Gold loan EMI': 'గోల్డ్ లోన్ EMI', 'Loan amount (₹)': 'లోన్ మొత్తం (₹)', 'Interest per year (%)': 'ఏడాదికి వడ్డీ (%)', 'Monthly EMI': 'నెలవారీ EMI', 'Total interest': 'మొత్తం వడ్డీ', 'Total payable': 'మొత్తం చెల్లింపు',
     'Processing fees and other charges are not included.': 'ప్రాసెసింగ్ ఫీజులు, ఇతర ఛార్జీలు చేర్చలేదు.',
-    'Gold price per gram': 'గ్రాము బంగారం ధర'
+    'Gold price per gram': 'గ్రాము బంగారం ధర',
+    'Share': 'షేర్', 'Share GoldRadar': 'GoldRadar షేర్ చేయండి'
   };
   let lang = 'en';
   try { const q = new URLSearchParams(location.search).get('lang'); lang = (q === 'te' || q === 'en') ? q : (localStorage.getItem('gr_lang') || 'en'); } catch (e) {}

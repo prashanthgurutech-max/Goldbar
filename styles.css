@@ -85,3 +85,4 @@ body{font-family:Inter,"Noto Sans Telugu",system-ui,sans-serif}
 .calc .res small{display:block;color:var(--mut);font-size:12px}.calc .res b{font:700 18px Inter;color:var(--gold);font-variant-numeric:tabular-nums}
 .guide-te{display:none}html[lang=te] .guide-en{display:none}html[lang=te] .guide-te{display:block}
 html[lang=te] *{letter-spacing:normal!important}html[lang=te] .rate .k,html[lang=te] .lab{text-transform:none}
+.bar .lang{margin-left:8px}

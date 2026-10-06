@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coin vs ETF vs SGB – GoldRadar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261006a">
+<link rel="stylesheet" href="premium.css?v=20261007a">
+<link rel="stylesheet" href="premium2.css?v=20261007b">
+<link rel="icon" href="icon-192.png">
+<style>
+.cmp-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; margin:20px 0; }
+.inv-card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px; }
+.inv-card.highlight { border-color:var(--gold2); box-shadow:0 0 24px rgba(201,149,42,.12); }
+.inv-icon { font-size:32px; margin-bottom:8px; }
+.inv-name { font:700 20px Fraunces,serif; color:var(--gold); margin-bottom:4px; }
+.inv-tag { font-size:12px; color:var(--mut); margin-bottom:14px; }
+.inv-row { display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid var(--line); font-size:14px; }
+.inv-row:last-child { border:none; }
+.inv-row .k { color:var(--mut); }
+.inv-row .v { font-weight:600; }
+.v.good { color:var(--green); }
+.v.bad { color:var(--red); }
+.v.mid { color:var(--gold); }
+.verdict { margin-top:14px; padding:10px 12px; border-radius:10px; font-size:13px; background:rgba(232,197,106,.07); border:1px solid rgba(201,149,42,.2); color:var(--tx); }
+.verdict b { color:var(--gold); }
+.calc-box { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px; margin:20px 0; }
+.calc-box h2 { font-size:20px; margin:0 0 14px; }
+.row-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin-bottom:14px; }
+.field label { display:grid; gap:4px; font-size:13px; color:var(--mut); }
+.field input, .field select { background:var(--card2); color:var(--tx); border:1px solid var(--line); border-radius:10px; padding:9px 12px; font:inherit; width:100%; }
+.results-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:10px; margin-top:14px; }
+.res-card { background:var(--card2); border-radius:12px; padding:12px; }
+.res-card small { font-size:12px; color:var(--mut); display:block; margin-bottom:4px; }
+.res-card b { font:700 22px Inter; color:var(--gold); font-variant-numeric:tabular-nums; }
+.res-card .sub { font-size:12px; color:var(--mut); margin-top:2px; }
+table.cmp-tbl { width:100%; border-collapse:collapse; min-width:500px; }
+.cmp-tbl th, .cmp-tbl td { padding:9px 12px; text-align:left; border-bottom:1px solid var(--line); font-size:14px; }
+.cmp-tbl th { font-size:12px; color:var(--mut); letter-spacing:.06em; }
+.cmp-tbl td:first-child { font-weight:600; }
+.tick { color:var(--green); } .cross { color:var(--red); } .mid { color:var(--gold); }
+</style>
+</head><body>
+<header class="top"><div class="wrap bar">
+  <div class="brand"><a href="index.html" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit"><span class="dot"></span><b>GoldRadar</b></a><span class="chip">BETA</span></div>
+  <nav class="topnav"><a href="index.html">Home</a><a href="gift.html">Gift picker</a><a href="tracker.html">Gold tracker</a><a href="calc.html">Calculators</a><a href="purity.html">Purity</a><a href="loan.html">Gold Loan</a><a href="sip.html">SIP</a><a href="jewellery.html">Jewellery vs Coin</a></nav>
+</div></header>
+<main class="wrap" style="padding-bottom:60px">
+  <div style="margin-top:24px">
+    <a href="index.html" class="back-link">← Back to GoldRadar</a>
+    <h1 style="font-family:Fraunces,serif;font-size:30px;background:linear-gradient(90deg,#e8c56a,#fff8e7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin:10px 0 4px">Coin vs ETF vs SGB</h1>
+    <p style="color:var(--mut);font-size:14px;margin-bottom:24px">Compare every way to own gold in India — costs, taxes, liquidity and returns</p>
+  </div>
+
+  <!-- Comparison cards -->
+  <div class="cmp-grid">
+    <div class="inv-card">
+      <div class="inv-icon">🪙</div>
+      <div class="inv-name">Physical Coin / Bar</div>
+      <div class="inv-tag">Buy from Myntra, Shopsy, Ajio etc.</div>
+      <div class="inv-row"><span class="k">Premium over gold</span><span class="v bad">3–10%</span></div>
+      <div class="inv-row"><span class="k">GST</span><span class="v bad">3%</span></div>
+      <div class="inv-row"><span class="k">Making charges</span><span class="v mid">None (bars)</span></div>
+      <div class="inv-row"><span class="k">Storage risk</span><span class="v bad">High</span></div>
+      <div class="inv-row"><span class="k">Liquidity</span><span class="v mid">Medium</span></div>
+      <div class="inv-row"><span class="k">Long-term capital gains</span><span class="v mid">20% + indexation</span></div>
+      <div class="inv-row"><span class="k">Min. investment</span><span class="v good">₹1,500 (0.1g)</span></div>
+      <div class="inv-row"><span class="k">Extra interest</span><span class="v bad">None</span></div>
+      <div class="verdict"><b>Best for:</b> Gifting, Dhanteras buying, holding physical gold. Not ideal for pure investment — GST is a sunk cost.</div>
+    </div>
+
+    <div class="inv-card highlight">
+      <div class="inv-icon">📈</div>
+      <div class="inv-name">Gold ETF</div>
+      <div class="inv-tag">Zerodha, Groww, Upstox — traded on NSE/BSE</div>
+      <div class="inv-row"><span class="k">Premium over gold</span><span class="v good">~0.01–0.05%</span></div>
+      <div class="inv-row"><span class="k">GST</span><span class="v good">None</span></div>
+      <div class="inv-row"><span class="k">Expense ratio</span><span class="v mid">0.05–0.65%/yr</span></div>
+      <div class="inv-row"><span class="k">Storage risk</span><span class="v good">None (demat)</span></div>
+      <div class="inv-row"><span class="k">Liquidity</span><span class="v good">High (stock market hours)</span></div>
+      <div class="inv-row"><span class="k">Long-term capital gains</span><span class="v mid">20% + indexation (3yr+)</span></div>
+      <div class="inv-row"><span class="k">Min. investment</span><span class="v good">~₹60 (0.01g unit)</span></div>
+      <div class="inv-row"><span class="k">Extra interest</span><span class="v bad">None</span></div>
+      <div class="verdict"><b>Best for:</b> Pure gold price exposure with zero storage hassle. Ideal for SIPs and long-term wealth building.</div>
+    </div>
+
+    <div class="inv-card highlight" style="border-color:var(--green)">
+      <div class="inv-icon">🏛️</div>
+      <div class="inv-name">Sovereign Gold Bond</div>
+      <div class="inv-tag">RBI-issued, bought via banks / stock brokers</div>
+      <div class="inv-row"><span class="k">Premium over gold</span><span class="v good">0% (at issue)</span></div>
+      <div class="inv-row"><span class="k">GST</span><span class="v good">None</span></div>
+      <div class="inv-row"><span class="k">Annual interest</span><span class="v good" style="color:var(--green)">+2.5% p.a.</span></div>
+      <div class="inv-row"><span class="k">Storage risk</span><span class="v good">None (demat/paper)</span></div>
+      <div class="inv-row"><span class="k">Liquidity</span><span class="v mid">Low–Medium (8yr lock, tradeable)</span></div>
+      <div class="inv-row"><span class="k">Capital gains tax</span><span class="v good">ZERO if held 8 yrs</span></div>
+      <div class="inv-row"><span class="k">Min. investment</span><span class="v mid">1g (~₹15,000)</span></div>
+      <div class="inv-row"><span class="k">Extra interest</span><span class="v good">2.5%/yr (taxable)</span></div>
+      <div class="verdict"><b>Best for:</b> Long-term investors (5–8 yrs). Zero capital gains tax + 2.5% interest makes it the highest-return gold instrument.</div>
+    </div>
+  </div>
+
+  <!-- Calculator -->
+  <div class="calc-box">
+    <h2>📊 Returns calculator</h2>
+    <div class="row-grid">
+      <div class="field"><label>Investment (₹)<input type="number" id="invAmt" value="100000" min="1000" step="1000"></label></div>
+      <div class="field"><label>Years<input type="number" id="invYrs" value="5" min="1" max="30"></label></div>
+      <div class="field"><label>Gold return/yr (%)<input type="number" id="goldRet" value="11" min="0" max="30" step="0.5"></label></div>
+    </div>
+    <button class="prem-btn" onclick="calcInvest()">Calculate</button>
+    <div class="results-grid" id="invResults" style="margin-top:16px"></div>
+  </div>
+
+  <!-- Feature comparison table -->
+  <h2 style="margin-top:28px">Feature comparison</h2>
+  <div style="overflow-x:auto;border:1px solid var(--line);border-radius:14px">
+    <table class="cmp-tbl">
+      <thead><tr>
+        <th>Feature</th><th>Physical Coin</th><th>Gold ETF</th><th>SGB</th>
+      </tr></thead>
+      <tbody>
+        <tr><td>Tracks gold price</td><td class="tick">✅</td><td class="tick">✅</td><td class="tick">✅</td></tr>
+        <tr><td>GST cost</td><td class="bad cross">3% sunk</td><td class="tick">None</td><td class="tick">None</td></tr>
+        <tr><td>Demat account needed</td><td class="tick">No</td><td class="cross">Yes</td><td class="mid">Optional</td></tr>
+        <tr><td>Can pledge for loan</td><td class="tick">✅</td><td class="tick">✅</td><td class="mid">Limited</td></tr>
+        <tr><td>Zero capital gains tax</td><td class="cross">❌</td><td class="cross">❌</td><td class="tick">✅ (8yr hold)</td></tr>
+        <tr><td>Extra 2.5% interest</td><td class="cross">❌</td><td class="cross">❌</td><td class="tick">✅</td></div></td></tr>
+        <tr><td>Buy any time</td><td class="tick">✅</td><td class="tick">✅ (market hrs)</td><td class="cross">Only at issue</td></tr>
+        <tr><td>Purity guaranteed</td><td class="mid">BIS hallmark</td><td class="tick">✅ (99.5%)</td><td class="tick">✅ (RBI)</td></tr>
+        <tr><td>Physical delivery</td><td class="tick">✅</td><td class="cross">❌</td><td class="cross">❌</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p style="color:var(--mut);font-size:13px;margin-top:20px">This is not investment advice. Past gold returns do not guarantee future performance. Consult a financial advisor before investing.</p>
+</main>
+
+<script>
+function calcInvest(){
+  const amt = parseFloat(document.getElementById('invAmt').value)||100000;
+  const yrs = parseFloat(document.getElementById('invYrs').value)||5;
+  const ret = parseFloat(document.getElementById('goldRet').value)/100||0.11;
+  const fmt = v => '₹'+Math.round(v).toLocaleString('en-IN');
+
+  // Physical coin: -3% GST upfront, then gold returns
+  const coinStart = amt * (1 - 0.03);
+  const coinEnd = coinStart * Math.pow(1+ret, yrs);
+
+  // ETF: -0.3% expense ratio annually approx
+  const etfEnd = amt * Math.pow(1+(ret-0.003), yrs);
+
+  // SGB: +2.5% annual interest (taxed at 30%), zero capital gains
+  const sgbInterest = amt * 0.025 * (1-0.3) * yrs; // simplified
+  const sgbGold = amt * Math.pow(1+ret, yrs);
+  const sgbEnd = sgbGold + sgbInterest;
+
+  const best = Math.max(coinEnd, etfEnd, sgbEnd);
+
+  document.getElementById('invResults').innerHTML = `
+    <div class="res-card ${coinEnd===best?'':''}">
+      <small>🪙 Physical Coin</small>
+      <b>${fmt(coinEnd)}</b>
+      <div class="sub">After ${yrs}yr (3% GST deducted)</div>
+    </div>
+    <div class="res-card">
+      <small>📈 Gold ETF</small>
+      <b>${fmt(etfEnd)}</b>
+      <div class="sub">After ${yrs}yr (0.3% exp. ratio)</div>
+    </div>
+    <div class="res-card" style="${sgbEnd===best?'border:1px solid var(--green)':''}">
+      <small>🏛️ SGB ${sgbEnd===best?'⭐ Best':''}</small>
+      <b style="color:var(--green)">${fmt(sgbEnd)}</b>
+      <div class="sub">After ${yrs}yr (incl. 2.5% interest)</div>
+    </div>
+    <div class="res-card">
+      <small>Gain (best option)</small>
+      <b>+${fmt(best - amt)}</b>
+      <div class="sub">${(((best/amt)-1)*100).toFixed(1)}% total return</div>
+    </div>
+  `;
+}
+calcInvest();
+</script>
+</body></html>

@@ -1,0 +1,52 @@
+/* GoldRadar Elite CSS — deal score bars, watch buttons, history badges */
+
+/* Score bar */
+.gr-score { margin-top: 8px; }
+.gr-score-bar-wrap { height: 6px; background: #1e2d4a; border-radius: 99px; overflow: hidden; margin-bottom: 4px; }
+.gr-score-bar { height: 100%; border-radius: 99px; transition: width 0.6s cubic-bezier(.4,0,.2,1); }
+.gr-score-label { font-size: 12px; color: #7a8ba8; }
+.gr-score-label b { color: #f0eadc; }
+.score-ex  .gr-score-label b { color: #34d399; }
+.score-good .gr-score-label b { color: #e8c56a; }
+.score-fair .gr-score-label b { color: #f5b942; }
+.score-poor .gr-score-label b { color: #f87171; }
+
+/* History badges */
+.gr-hist-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 99px;
+  padding: 2px 8px;
+  margin-bottom: 4px;
+}
+.badge-low  { background: rgba(52,211,153,.15); color: #34d399; }
+.badge-avg  { background: rgba(232,197,106,.13); color: #e8c56a; }
+.badge-high { background: rgba(248,113,113,.13); color: #f87171; }
+
+/* Watch button */
+.gr-watch-wrap { margin-top: 6px; }
+.gr-watch-btn {
+  background: none;
+  border: 1px dashed #1e2d4a;
+  border-radius: 8px;
+  color: #7a8ba8;
+  font-size: 12px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.15s;
+}
+.gr-watch-btn:hover { border-color: #e8c56a; color: #e8c56a; }
+.gr-watch-btn.on { border-color: #e8c56a; color: #e8c56a; background: rgba(232,197,106,.08); border-style: solid; }
+
+/* Watchlist panel */
+#grWatchPanel { margin-top: 12px; display: grid; grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); gap: 12px; }
+.gr-wl-empty { color: #7a8ba8; font-size: 14px; }
+.gr-wl-card { background: #0d1628; border: 1px solid #1e2d4a; border-radius: 12px; padding: 12px; }
+.gr-wl-name { font-weight: 700; color: #f0eadc; }
+.gr-wl-brand { font-size: 12px; color: #7a8ba8; margin: 2px 0; }
+.gr-wl-price { font-size: 13px; color: #e8c56a; margin: 4px 0; }
+.gr-wl-alert { font-size: 12px; color: #34d399; }
+.gr-wl-remove { margin-top: 8px; background: none; border: 1px solid #1e2d4a; border-radius: 8px; color: #f87171; font-size: 12px; padding: 4px 10px; cursor: pointer; }
+.gr-wl-remove:hover { background: rgba(248,113,113,.1); }

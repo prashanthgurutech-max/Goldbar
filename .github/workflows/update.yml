@@ -2,6 +2,7 @@ name: Update gold and silver rates
 on:
   schedule:
     - cron: '30 3 * * *'
+    - cron: '41 5 * * *'
     - cron: '30 9 * * *'
   workflow_dispatch:
 permissions:

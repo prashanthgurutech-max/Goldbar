@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gold Purity Checker – BIS Hallmark Guide | GoldRadar</title>
+<meta name="description" content="Check any BIS hallmark code to find exact gold purity percentage, karat meaning, and what to look for at the jeweller.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261007b">
+<link rel="stylesheet" href="premium2.css?v=20261007b">
+<link rel="icon" href="icon-192.png">
+<meta name="theme-color" content="#060b18">
+</head><body>
+<header class="top"><div class="wrap bar">
+  <div class="brand"><a href="index.html" style="text-decoration:none;display:flex;align-items:center;gap:10px;"><span class="dot"></span><b>GoldRadar</b></a><span class="chip">BETA</span></div>
+  <nav class="topnav">
+    <a href="index.html">Prices</a>
+    <a href="purity.html" class="act">Purity Checker</a>
+    <a href="loan.html">Gold Loan</a>
+    <a href="sip.html">SIP Planner</a>
+    <a href="jewellery.html">Jewellery vs Coin</a>
+    <a href="invest.html">Coin vs ETF vs SGB</a>
+  </nav>
+</div></header>
+
+<main class="wrap" style="padding-top:32px;padding-bottom:60px">
+  <a href="index.html" class="back">← Back to prices</a>
+
+  <div class="tools-hero">
+    <h1>🔍 Gold Purity Checker</h1>
+    <p>Enter any BIS hallmark code or select a karat to instantly know the exact purity, what it means, and what to verify at the jeweller.</p>
+  </div>
+
+  <div class="prem-card" style="max-width:640px;margin:0 auto 24px">
+    <h3>Check Hallmark Code</h3>
+    <div class="prem-row two">
+      <div>
+        <label class="prem-label">Enter BIS Hallmark Code</label>
+        <input class="prem-input" id="codeInput" placeholder="e.g. 916, 750, BIS 585, 22K" oninput="checkCode()">
+      </div>
+      <div>
+        <label class="prem-label">Or select karat</label>
+        <select class="prem-input" id="karatSel" onchange="selectKarat()">
+          <option value="">— pick a karat —</option>
+          <option value="999">24K / 999 (Fine gold)</option>
+          <option value="958">23K / 958</option>
+          <option value="916">22K / 916 ⭐ Most common in India</option>
+          <option value="875">21K / 875</option>
+          <option value="750">18K / 750 (Hallmark 750)</option>
+          <option value="708">17K / 708</option>
+          <option value="585">14K / 585</option>
+          <option value="417">10K / 417</option>
+          <option value="375">9K / 375</option>
+        </select>
+      </div>
+    </div>
+    <div id="result" hidden></div>
+  </div>
+
+  <!-- Hallmark reference grid -->
+  <div class="prem-card" style="max-width:640px;margin:0 auto 24px">
+    <h3>All BIS Hallmark Codes</h3>
+    <p style="color:var(--mut);font-size:14px;margin-bottom:16px">BIS hallmarking is mandatory in India since June 2021. Look for the BIS logo (triangle), hallmark centre number, and purity code on your jewellery.</p>
+    <div class="hallmark-grid" id="hallmarkGrid"></div>
+  </div>
+
+  <!-- How to verify -->
+  <div class="prem-card" style="max-width:640px;margin:0 auto 24px">
+    <h3>How to Verify at the Jeweller</h3>
+    <div style="display:grid;gap:12px">
+      <div style="display:flex;gap:12px;align-items:flex-start">
+        <span style="font-size:24px;flex-shrink:0">🔎</span>
+        <div>
+          <b style="display:block;margin-bottom:4px;color:var(--tx2)">Look for 4 hallmark stamps</b>
+          <span style="font-size:14px;color:var(--mut)">BIS logo (Bureau of Indian Standards triangle), 6-digit HUID number, purity in fineness (e.g. 916), and jeweller's identification mark.</span>
+        </div>
+      </div>
+      <div style="display:flex;gap:12px;align-items:flex-start">
+        <span style="font-size:24px;flex-shrink:0">📱</span>
+        <div>
+          <b style="display:block;margin-bottom:4px;color:var(--tx2)">Use BIS Care App</b>
+          <span style="font-size:14px;color:var(--mut)">Scan the 6-digit HUID on the jewellery using the official BIS Care app to verify authenticity instantly. Available on Play Store and App Store.</span>
+        </div>
+      </div>
+      <div style="display:flex;gap:12px;align-items:flex-start">
+        <span style="font-size:24px;flex-shrink:0">⚖️</span>
+        <div>
+          <b style="display:block;margin-bottom:4px;color:var(--tx2)">Ask for making charges separately</b>
+          <span style="font-size:14px;color:var(--mut)">Making charges should be quoted per gram or as a %. Typical range: ₹200–600/g for machine-made, ₹500–2000/g for handmade. Always negotiable.</span>
+        </div>
+      </div>
+      <div style="display:flex;gap:12px;align-items:flex-start">
+        <span style="font-size:24px;flex-shrink:0">🧮</span>
+        <div>
+          <b style="display:block;margin-bottom:4px;color:var(--tx2)">Calculate fair price yourself</b>
+          <span style="font-size:14px;color:var(--mut)">Fair price = (Today's 24K rate × purity) × weight + making charges + 3% GST. Ask the jeweller to show the breakup in writing.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="disc" style="max-width:640px;margin:0 auto">
+    ℹ️ Purity percentages are based on BIS (Bureau of Indian Standards) hallmarking standards. Always verify jewellery at a BIS-licensed hallmarking centre for certified results.
+  </div>
+</main>
+
+<script>
+const CODES = [
+  {code:'999',karat:24,pct:99.9,name:'Fine Gold',note:'Investment bars and coins. Too soft for everyday jewellery.'},
+  {code:'958',karat:23,pct:95.8,name:'23 Karat',note:'Rare in India. Slightly less pure than 24K but more durable.'},
+  {code:'916',karat:22,pct:91.6,name:'22 Karat',note:'Most popular in India for jewellery. Ideal balance of purity and durability.'},
+  {code:'875',karat:21,pct:87.5,name:'21 Karat',note:'Common in Gulf-style jewellery. Not widely available in India.'},
+  {code:'750',karat:18,pct:75.0,name:'18 Karat',note:'Preferred for diamond-set jewellery. More durable, popular in urban markets.'},
+  {code:'708',karat:17,pct:70.8,name:'17 Karat',note:'Uncommon. Mainly used in some European markets.'},
+  {code:'585',karat:14,pct:58.5,name:'14 Karat',note:'Durable and affordable. Common in western jewellery, gaining traction in India.'},
+  {code:'417',karat:10,pct:41.7,name:'10 Karat',note:'Minimum legal gold standard in the US. Rarely seen in India.'},
+  {code:'375',karat:9,pct:37.5,name:'9 Karat',note:'Common in UK and Australia. Not officially recognised by BIS for jewellery.'},
+];
+
+function renderGrid(highlight){
+  const g=document.getElementById('hallmarkGrid');
+  g.innerHTML=CODES.map(c=>`
+    <div class="hallmark-item${highlight===c.code?' match':''}">
+      <div class="hcode">${c.code}</div>
+      <div class="hpct">${c.karat}K · ${c.pct}%</div>
+      <div class="hname">${c.name}</div>
+    </div>`).join('');
+}
+renderGrid();
+
+function showResult(c){
+  const r=document.getElementById('result');
+  r.hidden=false;
+  const pct=c.pct/100;
+  r.innerHTML=`
+    <div class="prem-result" style="margin-top:16px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px">
+        <div>
+          <div class="big">${c.code} = ${c.pct}% pure</div>
+          <div style="color:var(--mut);font-size:14px;margin-top:2px">${c.karat} Karat — ${c.name}</div>
+        </div>
+        <span class="prem-badge gold">${c.karat >= 22 ? '⭐ High purity' : c.karat >= 18 ? '✓ Standard' : 'ℹ Alloy-heavy'}</span>
+      </div>
+      <div class="purity-meter"><div class="purity-meter-fill" style="width:${c.pct}%"></div></div>
+      <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--mut);margin-bottom:12px">
+        <span>0% (no gold)</span><span>${c.pct}% gold content</span><span>100% (pure)</span>
+      </div>
+      <div class="rrow"><span>Gold content</span><b>${c.pct}g per 100g of metal</b></div>
+      <div class="rrow"><span>Alloy content</span><b>${(100-c.pct).toFixed(1)}g per 100g</b></div>
+      <div class="rrow"><span>BIS code</span><b>${c.code}</b></div>
+      <div class="rrow"><span>International karat</span><b>${c.karat}K</b></div>
+      <div style="margin-top:14px;padding:12px;background:rgba(255,255,255,.03);border-radius:12px;font-size:14px;color:var(--tx2);line-height:1.7">${c.note}</div>
+    </div>`;
+  renderGrid(c.code);
+}
+
+function checkCode(){
+  const raw=document.getElementById('codeInput').value.trim().toUpperCase();
+  const num=raw.replace(/[^0-9]/g,'');
+  const found=CODES.find(c=>c.code===num||raw===c.karat+'K'||raw==='BIS'+c.code||raw===c.karat+'KARAT');
+  if(found) showResult(found);
+  else if(raw.length>=3){
+    document.getElementById('result').hidden=false;
+    document.getElementById('result').innerHTML=`<div class="prem-result" style="margin-top:16px;text-align:center;color:var(--mut)">Code not recognised. Try: 999, 916, 750, 585, or select from the grid below.</div>`;
+    renderGrid();
+  }
+}
+
+function selectKarat(){
+  const v=document.getElementById('karatSel').value;
+  if(!v) return;
+  const found=CODES.find(c=>c.code===v);
+  if(found){document.getElementById('codeInput').value=v;showResult(found);}
+}
+</script>
+</body></html>

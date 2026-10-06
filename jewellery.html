@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jewellery vs Gold Coin Price Breakdown | GoldRadar</title>
+<meta name="description" content="Why does the same 10g gold jewellery cost more than a coin? See the full breakup — making charges, wastage, GST — with live gold prices.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261007b">
+<link rel="stylesheet" href="premium2.css?v=20261007b">
+<link rel="icon" href="icon-192.png">
+<meta name="theme-color" content="#060b18">
+</head><body>
+<header class="top"><div class="wrap bar">
+  <div class="brand"><a href="index.html" style="text-decoration:none;display:flex;align-items:center;gap:10px;"><span class="dot"></span><b>GoldRadar</b></a><span class="chip">BETA</span></div>
+  <nav class="topnav">
+    <a href="index.html">Prices</a>
+    <a href="purity.html">Purity Checker</a>
+    <a href="loan.html">Gold Loan</a>
+    <a href="sip.html">SIP Planner</a>
+    <a href="jewellery.html" class="act">Jewellery vs Coin</a>
+    <a href="invest.html">Coin vs ETF vs SGB</a>
+  </nav>
+</div></header>
+
+<main class="wrap" style="padding-top:32px;padding-bottom:60px">
+  <a href="index.html" class="back">← Back to prices</a>
+
+  <div class="tools-hero">
+    <h1>💍 Jewellery vs Coin</h1>
+    <p>The same 10g of gold costs much more as jewellery than as a coin. Here's exactly why — and how to calculate the fair price.</p>
+  </div>
+
+  <div class="prem-card" style="max-width:720px;margin:0 auto 24px">
+    <h3>Compare Costs Side by Side</h3>
+    <div class="prem-row three">
+      <div>
+        <label class="prem-label">Gold weight (grams)</label>
+        <input class="prem-input" id="weight" type="number" value="10" min="1" oninput="calc()">
+      </div>
+      <div>
+        <label class="prem-label">Karat</label>
+        <select class="prem-input" id="karat" onchange="calc()">
+          <option value="22">22K (916)</option>
+          <option value="24">24K (999)</option>
+          <option value="18">18K (750)</option>
+        </select>
+      </div>
+      <div>
+        <label class="prem-label">Today's 24K rate (₹/g)</label>
+        <input class="prem-input" id="rate" type="number" value="14969" oninput="calc()">
+      </div>
+    </div>
+
+    <details open style="margin-bottom:16px">
+      <summary style="cursor:pointer;color:var(--gold);font-weight:600;font-size:14px;margin-bottom:12px">⚙ Jewellery cost details</summary>
+      <div class="prem-row two" style="margin-top:12px">
+        <div>
+          <label class="prem-label">Making charges (₹/g)</label>
+          <input class="prem-input" id="making" type="number" value="400" oninput="calc()">
+        </div>
+        <div>
+          <label class="prem-label">Wastage during making (%)</label>
+          <input class="prem-input" id="wastage" type="number" value="5" step="0.5" oninput="calc()">
+        </div>
+      </div>
+      <p style="font-size:13px;color:var(--mut);margin-top:-4px">Making charges vary widely: ₹200–400/g machine-made, ₹500–2000/g handmade. Wastage (karigar loss) is 3–8% for most designs.</p>
+    </details>
+
+    <div class="prem-row two">
+      <div>
+        <label class="prem-label">Coin premium over gold rate (%)</label>
+        <input class="prem-input" id="coinPremium" type="number" value="3" step="0.5" oninput="calc()">
+      </div>
+    </div>
+
+    <div id="jvcResult" hidden style="margin-top:16px"></div>
+  </div>
+
+  <!-- Explainer -->
+  <div class="prem-card" style="max-width:720px;margin:0 auto 24px">
+    <h3>Why Jewellery Costs More</h3>
+    <div style="display:grid;gap:16px">
+      <div style="border-left:3px solid var(--gold2);padding-left:14px">
+        <b style="color:var(--tx2)">1. Making Charges (Karigar fee)</b>
+        <p style="font-size:14px;color:var(--mut);margin-top:4px">Charged per gram for the artisan's work. Ranges from ₹200/g for simple machine-made chains to ₹2000/g+ for intricate handmade designs like Kundan or temple jewellery. Always ask for it separately in writing — it's negotiable.</p>
+      </div>
+      <div style="border-left:3px solid #3de8a0;padding-left:14px">
+        <b style="color:var(--tx2)">2. Wastage (Tulaabharam)</b>
+        <p style="font-size:14px;color:var(--mut);margin-top:4px">Gold is "wasted" in filings and polish during crafting. Jewellers charge this as a % of gold weight (typically 3–8%). You're paying for gold that doesn't end up in your jewellery. Always ask them to justify the wastage %. For machine-made items it should be under 3%.</p>
+      </div>
+      <div style="border-left:3px solid #6eb8ff;padding-left:14px">
+        <b style="color:var(--tx2)">3. GST — 3% on total price</b>
+        <p style="font-size:14px;color:var(--mut);margin-top:4px">3% GST is charged on the full invoice including making charges. You cannot claim this back unlike other goods. This GST is a pure cost — gold coins from banks also attract 3% GST.</p>
+      </div>
+      <div style="border-left:3px solid #f87171;padding-left:14px">
+        <b style="color:var(--tx2)">4. Coins: no making, minimal premium</b>
+        <p style="font-size:14px;color:var(--mut);margin-top:4px">BIS-hallmarked 24K coins from banks or certified dealers have only a 2–5% premium over gold rate. No making charges, no wastage. When you sell, you get close to the day's rate. Jewellery buyers offer 5–15% less than spot.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Smart buyer tips -->
+  <div class="prem-card" style="max-width:720px;margin:0 auto 24px">
+    <h3>Smart Buyer Checklist</h3>
+    <div style="display:grid;gap:10px">
+      <label style="display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--tx2)"><span style="color:var(--green);flex-shrink:0;font-size:18px">✓</span> Always ask for the price breakdown: gold value + making charges + wastage + GST separately</label>
+      <label style="display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--tx2)"><span style="color:var(--green);flex-shrink:0;font-size:18px">✓</span> Check BIS hallmark (6-digit HUID) using the BIS Care app before buying</label>
+      <label style="display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--tx2)"><span style="color:var(--green);flex-shrink:0;font-size:18px">✓</span> Compare ₹/g pure gold value using our <a href="index.html" style="color:var(--gold)">price comparison</a> before going to a jeweller</label>
+      <label style="display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--tx2)"><span style="color:var(--green);flex-shrink:0;font-size:18px">✓</span> Ask if making charges are per gram or % of gold value — per gram is usually better</label>
+      <label style="display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--tx2)"><span style="color:var(--green);flex-shrink:0;font-size:18px">✓</span> For pure investment, prefer 24K coins/bars or Gold ETF over jewellery</label>
+      <label style="display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--tx2)"><span style="color:var(--red);flex-shrink:0;font-size:18px">✗</span> Don't let jewellers include stone weight in gold weight — insist on net gold weight only</label>
+    </div>
+  </div>
+
+  <div class="disc" style="max-width:720px;margin:0 auto">
+    ℹ️ Prices are indicative. Making charges, wastage, and gold rates vary across jewellers and regions. Always verify BIS hallmark before purchasing. Resale value of jewellery depends on the buyer and design — plain jewellery gets better resale.
+  </div>
+</main>
+
+<script>
+function fmt(n){return'₹'+Math.round(n).toLocaleString('en-IN')}
+
+function calc(){
+  const w=parseFloat(document.getElementById('weight').value)||10;
+  const k=parseInt(document.getElementById('karat').value)||22;
+  const rate=parseFloat(document.getElementById('rate').value)||14969;
+  const making=parseFloat(document.getElementById('making').value)||400;
+  const wastage=parseFloat(document.getElementById('wastage').value)||5;
+  const coinPrem=parseFloat(document.getElementById('coinPremium').value)||3;
+
+  const purity=k/24;
+  const goldRate=rate*purity; // per g at that karat
+  const goldVal=goldRate*w;
+
+  // Jewellery
+  const wastageAmt=goldVal*(wastage/100);
+  const makingAmt=making*w;
+  const subJ=goldVal+wastageAmt+makingAmt;
+  const gstJ=subJ*0.03;
+  const totalJ=subJ+gstJ;
+
+  // Coin
+  const coinBase=goldVal*(1+coinPrem/100);
+  const gstC=coinBase*0.03;
+  const totalC=coinBase+gstC;
+
+  const diff=totalJ-totalC;
+  const diffPct=((diff/totalC)*100).toFixed(1);
+
+  const r=document.getElementById('jvcResult');
+  r.hidden=false;
+  r.innerHTML=`
+    <div class="jvc-grid">
+      <div class="jvc-col">
+        <h4>💍 Jewellery (${k}K, ${w}g)</h4>
+        <div class="jrow"><span>Gold value</span><span>${fmt(goldVal)}</span></div>
+        <div class="jrow diff"><span>Wastage (${wastage}%)</span><span>+${fmt(wastageAmt)}</span></div>
+        <div class="jrow diff"><span>Making charges</span><span>+${fmt(makingAmt)}</span></div>
+        <div class="jrow"><span>Sub-total</span><span>${fmt(subJ)}</span></div>
+        <div class="jrow diff"><span>GST (3%)</span><span>+${fmt(gstJ)}</span></div>
+        <div class="jrow total"><span>Total you pay</span><span>${fmt(totalJ)}</span></div>
+      </div>
+      <div class="jvc-col">
+        <h4>🪙 Coin/Bar (${k}K, ${w}g)</h4>
+        <div class="jrow"><span>Gold value</span><span>${fmt(goldVal)}</span></div>
+        <div class="jrow"><span>Coin premium (${coinPrem}%)</span><span>+${fmt(coinBase-goldVal)}</span></div>
+        <div class="jrow"><span>Making/wastage</span><span>—</span></div>
+        <div class="jrow"><span>Sub-total</span><span>${fmt(coinBase)}</span></div>
+        <div class="jrow diff"><span>GST (3%)</span><span>+${fmt(gstC)}</span></div>
+        <div class="jrow total"><span>Total you pay</span><span>${fmt(totalC)}</span></div>
+      </div>
+    </div>
+    <div class="jvc-diff">
+      Jewellery costs <b>+${fmt(diff)} (${diffPct}%) more</b> than the equivalent coin<br>
+      <span style="font-size:13px;color:var(--mut);margin-top:4px;display:block">That extra money is making charges + wastage — you don't get it back when you sell</span>
+    </div>
+    <div style="margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div style="background:rgba(248,113,113,.07);border:1px solid rgba(248,113,113,.2);border-radius:12px;padding:12px;font-size:13px">
+        <b style="color:var(--red)">Jewellery resale reality:</b>
+        <div style="color:var(--mut);margin-top:4px">Most buyers pay only gold value at current rate. You lose making charges + wastage (≈ ${fmt(wastageAmt+makingAmt)}) on resale.</div>
+      </div>
+      <div style="background:rgba(61,232,160,.07);border:1px solid rgba(61,232,160,.2);border-radius:12px;padding:12px;font-size:13px">
+        <b style="color:var(--green)">Coin resale advantage:</b>
+        <div style="color:var(--mut);margin-top:4px">BIS 24K coins sell close to market rate (2–5% below spot). Better investment vehicle if resale value matters.</div>
+      </div>
+    </div>`;
+}
+calc();
+</script>
+</body></html>

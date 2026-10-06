@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gold Loan Calculator – Muthoot, Manappuram, SBI, HDFC | GoldRadar</title>
+<meta name="description" content="Calculate maximum gold loan amount from Muthoot, Manappuram, SBI and HDFC. Compare LTV%, interest rates and EMI across lenders.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261007b">
+<link rel="stylesheet" href="premium2.css?v=20261007b">
+<link rel="icon" href="icon-192.png">
+<meta name="theme-color" content="#060b18">
+</head><body>
+<header class="top"><div class="wrap bar">
+  <div class="brand"><a href="index.html" style="text-decoration:none;display:flex;align-items:center;gap:10px;"><span class="dot"></span><b>GoldRadar</b></a><span class="chip">BETA</span></div>
+  <nav class="topnav">
+    <a href="index.html">Prices</a>
+    <a href="purity.html">Purity Checker</a>
+    <a href="loan.html" class="act">Gold Loan</a>
+    <a href="sip.html">SIP Planner</a>
+    <a href="jewellery.html">Jewellery vs Coin</a>
+    <a href="invest.html">Coin vs ETF vs SGB</a>
+  </nav>
+</div></header>
+
+<main class="wrap" style="padding-top:32px;padding-bottom:60px">
+  <a href="index.html" class="back">← Back to prices</a>
+
+  <div class="tools-hero">
+    <h1>🏦 Gold Loan Calculator</h1>
+    <p>Enter your gold weight and karat to instantly compare loan amounts, LTV ratios, and interest rates across major Indian lenders.</p>
+  </div>
+
+  <div class="prem-card" style="max-width:680px;margin:0 auto 24px">
+    <h3>Your Gold Details</h3>
+    <div class="prem-row three">
+      <div>
+        <label class="prem-label">Weight (grams)</label>
+        <input class="prem-input" id="weight" type="number" value="20" min="1" max="2000" oninput="calc()">
+      </div>
+      <div>
+        <label class="prem-label">Karat</label>
+        <select class="prem-input" id="karat" onchange="calc()">
+          <option value="22">22K (916)</option>
+          <option value="24">24K (999)</option>
+          <option value="18">18K (750)</option>
+          <option value="14">14K (585)</option>
+        </select>
+      </div>
+      <div>
+        <label class="prem-label">Today's 24K rate (₹/g)</label>
+        <input class="prem-input" id="rate" type="number" value="14969" oninput="calc()">
+      </div>
+    </div>
+    <div id="loanResult" hidden></div>
+  </div>
+
+  <!-- Lender comparison -->
+  <div id="lenderSection" hidden style="max-width:680px;margin:0 auto 24px">
+    <div class="prem-card">
+      <h3>Lender Comparison</h3>
+      <p style="color:var(--mut);font-size:14px;margin-bottom:16px">Based on your gold's market value of <b id="mktVal" style="color:var(--gold)">—</b>. RBI cap is 75% LTV.</p>
+      <div class="lender-grid" id="lenderGrid"></div>
+    </div>
+  </div>
+
+  <!-- What affects loan amount -->
+  <div class="prem-card" style="max-width:680px;margin:0 auto 24px">
+    <h3>What Affects Your Loan Amount?</h3>
+    <div style="display:grid;gap:14px">
+      <div style="display:flex;gap:12px;align-items:flex-start">
+        <span style="font-size:22px;flex-shrink:0">📊</span>
+        <div>
+          <b style="display:block;margin-bottom:3px;color:var(--tx2)">LTV (Loan-to-Value) Ratio</b>
+          <span style="font-size:14px;color:var(--mut)">RBI mandates a maximum 75% LTV. So for gold worth ₹1 lakh, you can borrow up to ₹75,000. Banks are conservative; NBFCs offer closer to 75%.</span>
+        </div>
+      </div>
+      <div style="display:flex;gap:12px;align-items:flex-start">
+        <span style="font-size:22px;flex-shrink:0">⚖️</span>
+        <div>
+          <b style="display:block;margin-bottom:3px;color:var(--tx2)">Assay Value (not market price)</b>
+          <span style="font-size:14px;color:var(--mut)">Lenders use their own assayed value, typically 5–15% below market price to cover risk. The loan is based on assay value × LTV, not the spot price.</span>
+        </div>
+      </div>
+      <div style="display:flex;gap:12px;align-items:flex-start">
+        <span style="font-size:22px;flex-shrink:0">⏱️</span>
+        <div>
+          <b style="display:block;margin-bottom:3px;color:var(--tx2)">Tenure and repayment type</b>
+          <span style="font-size:14px;color:var(--mut)">Gold loans are typically 3–24 months. Options: bullet repayment (pay everything at end), EMI, or overdraft. Bullet suits short-term cash needs.</span>
+        </div>
+      </div>
+      <div style="display:flex;gap:12px;align-items:flex-start">
+        <span style="font-size:22px;flex-shrink:0">📋</span>
+        <div>
+          <b style="display:block;margin-bottom:3px;color:var(--tx2)">Minimum gold accepted</b>
+          <span style="font-size:14px;color:var(--mut)">Most lenders require minimum 18K hallmarked gold. Coins accepted only up to 50g (per RBI guidelines). No stone-studded jewellery.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="disc" style="max-width:680px;margin:0 auto">
+    ℹ️ Loan amounts are estimates based on publicly available LTV ratios and interest rates (Oct 2026). Actual loan amount depends on lender's assay, your credit profile, and applicable charges. Always confirm with the lender before pledging gold.
+  </div>
+</main>
+
+<script>
+const LENDERS = [
+  {name:'Muthoot Finance',ltv:75,rate:12,minRate:11,tenure:'3–24 mo',note:'Largest gold loan NBFC. Instant disbursal.',color:'#e8a020'},
+  {name:'Manappuram Gold',ltv:75,rate:12.5,minRate:10,tenure:'3–12 mo',note:'Online gold loan option available.',color:'#c04040'},
+  {name:'SBI Gold Loan',ltv:70,rate:9.9,minRate:9.9,tenure:'12–36 mo',note:'Lowest interest rate. Takes longer to process.',color:'#1a6bc4'},
+  {name:'HDFC Bank',ltv:70,rate:11,minRate:10,tenure:'6–24 mo',note:'Good for existing HDFC customers.',color:'#004c97'},
+  {name:'IIFL Gold Loan',ltv:75,rate:13,minRate:11,tenure:'3–12 mo',note:'Doorstep gold loan service available.',color:'#e05020'},
+  {name:'Axis Bank',ltv:70,rate:11.5,minRate:11,tenure:'6–24 mo',note:'Swift processing, competitive rates.',color:'#8b0000'},
+];
+
+function fmt(n){return'₹'+Math.round(n).toLocaleString('en-IN')}
+
+function calc(){
+  const w=parseFloat(document.getElementById('weight').value)||0;
+  const k=parseInt(document.getElementById('karat').value)||22;
+  const r=parseFloat(document.getElementById('rate').value)||14969;
+  if(w<=0||r<=0) return;
+
+  const purity=k/24;
+  const marketVal=w*r*purity;
+  document.getElementById('mktVal').textContent=fmt(marketVal);
+
+  // Assay value ~92% of market (conservative lender estimate)
+  const assayVal=marketVal*0.92;
+
+  const res=document.getElementById('loanResult');
+  res.hidden=false;
+  res.innerHTML=`
+    <div class="prem-result">
+      <div class="rrow"><span>Gold weight</span><b>${w}g of ${k}K gold</b></div>
+      <div class="rrow"><span>Pure gold content</span><b>${(w*purity).toFixed(2)}g</b></div>
+      <div class="rrow"><span>Market value</span><b>${fmt(marketVal)}</b></div>
+      <div class="rrow"><span>Lender assay value (est.)</span><b>${fmt(assayVal)}</b></div>
+      <div class="rrow total"><span>Max loan (75% LTV)</span><b class="big">${fmt(assayVal*0.75)}</b></div>
+    </div>`;
+
+  const grid=document.getElementById('lenderGrid');
+  grid.innerHTML=LENDERS.map(l=>{
+    const loan=assayVal*(l.ltv/100);
+    const monthly=loan*l.rate/100/12;
+    return`<div class="lender-card">
+      <div class="lname" style="color:${l.color}">${l.name}</div>
+      <div class="lamt">${fmt(loan)}</div>
+      <div class="lrow">LTV: <b>${l.ltv}%</b> · Rate: <b>${l.minRate}–${l.rate}%</b> p.a.</div>
+      <div class="lrow">Monthly interest: <b>${fmt(monthly)}</b></div>
+      <div class="lrow">Tenure: <b>${l.tenure}</b></div>
+      <div class="lrow" style="margin-top:6px;color:var(--mut)">${l.note}</div>
+    </div>`;
+  }).join('');
+
+  document.getElementById('lenderSection').hidden=false;
+}
+calc();
+</script>
+</body></html>

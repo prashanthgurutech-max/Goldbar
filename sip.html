@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gold SIP Planner – Monthly Investment Projector | GoldRadar</title>
+<meta name="description" content="Plan your monthly gold SIP. See projected corpus over 5, 10, 20 years in physical gold, Gold ETF, and SGB with inflation-adjusted real returns.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261007b">
+<link rel="stylesheet" href="premium2.css?v=20261007b">
+<link rel="icon" href="icon-192.png">
+<meta name="theme-color" content="#060b18">
+</head><body>
+<header class="top"><div class="wrap bar">
+  <div class="brand"><a href="index.html" style="text-decoration:none;display:flex;align-items:center;gap:10px;"><span class="dot"></span><b>GoldRadar</b></a><span class="chip">BETA</span></div>
+  <nav class="topnav">
+    <a href="index.html">Prices</a>
+    <a href="purity.html">Purity Checker</a>
+    <a href="loan.html">Gold Loan</a>
+    <a href="sip.html" class="act">SIP Planner</a>
+    <a href="jewellery.html">Jewellery vs Coin</a>
+    <a href="invest.html">Coin vs ETF vs SGB</a>
+  </nav>
+</div></header>
+
+<main class="wrap" style="padding-top:32px;padding-bottom:60px">
+  <a href="index.html" class="back">← Back to prices</a>
+
+  <div class="tools-hero">
+    <h1>📈 Gold SIP Planner</h1>
+    <p>See exactly how much your monthly gold investment grows across Physical, ETF and SGB — with real inflation-adjusted returns.</p>
+  </div>
+
+  <div class="prem-card" style="max-width:680px;margin:0 auto 24px">
+    <h3>Your Investment Plan</h3>
+    <div class="prem-row three">
+      <div>
+        <label class="prem-label">Monthly amount (₹)</label>
+        <input class="prem-input" id="monthly" type="number" value="5000" min="500" oninput="calc()">
+      </div>
+      <div>
+        <label class="prem-label">Expected gold CAGR (%)</label>
+        <input class="prem-input" id="cagr" type="number" value="10" step="0.5" oninput="calc()">
+      </div>
+      <div>
+        <label class="prem-label">Inflation (%)</label>
+        <input class="prem-input" id="inflation" type="number" value="6" step="0.5" oninput="calc()">
+      </div>
+    </div>
+
+    <details open style="margin-bottom:16px">
+      <summary style="cursor:pointer;color:var(--gold);font-weight:600;font-size:14px;margin-bottom:12px">⚙ Advanced rates</summary>
+      <div class="prem-row two" style="margin-top:12px">
+        <div>
+          <label class="prem-label">Physical gold making charges (₹/g)</label>
+          <input class="prem-input" id="making" type="number" value="300" oninput="calc()">
+        </div>
+        <div>
+          <label class="prem-label">Physical gold buy-sell spread (%)</label>
+          <input class="prem-input" id="spread" type="number" value="3" step="0.5" oninput="calc()">
+        </div>
+        <div>
+          <label class="prem-label">Gold ETF expense ratio (% p.a.)</label>
+          <input class="prem-input" id="etfExp" type="number" value="0.5" step="0.1" oninput="calc()">
+        </div>
+        <div>
+          <label class="prem-label">SGB interest rate (% p.a.)</label>
+          <input class="prem-input" id="sgbInt" type="number" value="2.5" step="0.1" oninput="calc()">
+        </div>
+        <div>
+          <label class="prem-label">Income tax slab (%)</label>
+          <select class="prem-input" id="slab" onchange="calc()">
+            <option value="5">5%</option>
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+            <option value="30" selected>30%</option>
+          </select>
+        </div>
+        <div>
+          <label class="prem-label">LTCG tax on physical/ETF (%)</label>
+          <input class="prem-input" id="ltcg" type="number" value="12.5" step="0.5" oninput="calc()">
+        </div>
+      </div>
+    </details>
+
+    <button class="prem-btn" onclick="calc()">Calculate Returns</button>
+
+    <div id="sipResult" hidden style="margin-top:20px"></div>
+  </div>
+
+  <div class="disc" style="max-width:680px;margin:0 auto">
+    ℹ️ Projections are for illustration only. Actual returns depend on gold price movements, tax laws in effect at redemption, and costs at time of investment. SGB interest taxed annually at slab rate; SGB capital gain exempt only at 8-year maturity. Past performance is not indicative of future returns. This is not investment advice.
+  </div>
+</main>
+
+<script>
+function fmt(n){return'₹'+Math.round(n).toLocaleString('en-IN')}
+function fmtC(n){
+  if(n>=10000000) return'₹'+(n/10000000).toFixed(2)+' Cr';
+  if(n>=100000) return'₹'+(n/100000).toFixed(2)+' L';
+  return fmt(n);
+}
+
+function sipFV(monthly, annualRate, years){
+  const r=annualRate/100/12;
+  const n=years*12;
+  if(r===0) return monthly*n;
+  return monthly*(Math.pow(1+r,n)-1)/r*(1+r);
+}
+
+const YEAR_MARKS=[5,10,15,20];
+const COLORS=['#c9952a','#3de8a0','#6eb8ff'];
+
+function calc(){
+  const m=parseFloat(document.getElementById('monthly').value)||5000;
+  const cagr=parseFloat(document.getElementById('cagr').value)||10;
+  const inf=parseFloat(document.getElementById('inflation').value)||6;
+  const making=parseFloat(document.getElementById('making').value)||300;
+  const spread=parseFloat(document.getElementById('spread').value)||3;
+  const etfExp=parseFloat(document.getElementById('etfExp').value)||0.5;
+  const sgbInt=parseFloat(document.getElementById('sgbInt').value)||2.5;
+  const slab=parseFloat(document.getElementById('slab').value)||30;
+  const ltcg=parseFloat(document.getElementById('ltcg').value)||12.5;
+
+  const invested20=m*12*20;
+
+  // Physical gold: 3% GST on purchase, making charges erode ~4% effective, sell spread
+  const physEffRate=cagr-0.5; // making/storage drag
+  const physSellDeduction=spread/100;
+  // ETF: expense ratio drag
+  const etfEffRate=cagr-etfExp;
+  // SGB: gold price + 2.5% interest, exempt at 8y maturity
+  const sgbEffRate=cagr+sgbInt;
+
+  const instruments=[
+    {name:'Physical Gold (22K coins/bars)',rate:physEffRate,color:COLORS[0],
+      note:`Includes 3% GST & ${spread}% sell spread. No holding cost but storage risk.`,tag:'Tangible'},
+    {name:'Gold ETF',rate:etfEffRate,color:COLORS[1],
+      note:`${etfExp}% p.a. expense ratio. Liquid, no storage, LTCG tax at ${ltcg}% after 12 months.`,tag:'Most liquid'},
+    {name:'Sovereign Gold Bond',rate:sgbEffRate,color:COLORS[2],
+      note:`Includes ${sgbInt}% p.a. interest (taxed at ${slab}% slab). Capital gain tax-free at 8-year maturity.`,tag:'Best returns'},
+  ];
+
+  let html=`<div style="margin-bottom:20px">
+    <div style="font-size:13px;color:var(--mut);margin-bottom:4px">Total invested over 20 years</div>
+    <div style="font:700 28px Inter;color:var(--tx)">${fmtC(invested20)}</div>
+  </div>`;
+
+  // Year cards
+  YEAR_MARKS.forEach(yr=>{
+    const inv=m*12*yr;
+    html+=`<div style="margin-bottom:20px">
+      <div style="font-weight:700;color:var(--tx2);margin-bottom:12px;font-size:15px">${yr}-Year Projection <span style="color:var(--mut);font-weight:400;font-size:13px">· Invested: ${fmtC(inv)}</span></div>
+      <div class="sip-bars">`;
+
+    const fvs=instruments.map(ins=>sipFV(m,ins.rate,yr));
+    const maxFV=Math.max(...fvs);
+
+    instruments.forEach((ins,i)=>{
+      const fv=fvs[i];
+      const realFV=fv/Math.pow(1+inf/100,yr);
+      const gain=fv-inv;
+      const pct=Math.round(fv/maxFV*100);
+      html+=`<div class="sip-bar-wrap">
+        <div class="sip-bar-label">${ins.name.split('(')[0].trim()}</div>
+        <div class="sip-bar-track">
+          <div class="sip-bar-fill" style="width:${pct}%;background:linear-gradient(90deg,${ins.color}88,${ins.color})">
+            ${pct>30?fmtC(fv):''}
+          </div>
+        </div>
+        <div class="sip-bar-val">${fmtC(fv)}</div>
+      </div>
+      <div style="font-size:12px;color:var(--mut);margin:-6px 0 8px 122px">
+        Gain: <b style="color:var(--green)">${fmtC(gain)}</b> · Real value: <b>${fmtC(realFV)}</b> · ${ins.tag}
+      </div>`;
+    });
+
+    html+=`</div></div>`;
+  });
+
+  // Notes
+  html+=`<div style="display:grid;gap:8px;margin-top:8px">
+    ${instruments.map((ins,i)=>`<div style="font-size:13px;padding:10px 12px;background:rgba(255,255,255,.03);border-left:3px solid ${ins.color};border-radius:0 10px 10px 0;color:var(--mut)">
+      <b style="color:var(--tx2)">${ins.name}</b>: ${ins.note}
+    </div>`).join('')}
+  </div>`;
+
+  const r=document.getElementById('sipResult');
+  r.hidden=false;
+  r.innerHTML=`<div class="prem-result">${html}</div>`;
+}
+calc();
+</script>
+</body></html>

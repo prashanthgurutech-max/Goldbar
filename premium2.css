@@ -1,0 +1,321 @@
+/* GoldRadar Premium2 — Deep Navy + Gold Glassmorphism Theme */
+:root {
+  --bg: #060b18;
+  --card: #0d1628;
+  --card2: #111d35;
+  --line: #1e2d4a;
+  --tx: #f0eadc;
+  --mut: #7a8ba8;
+  --gold: #e8c56a;
+  --gold2: #c9952a;
+  --green: #34d399;
+  --red: #f87171;
+  --r: 14px;
+}
+
+body {
+  background: var(--bg);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(201,149,42,0.12), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 80%, rgba(30,45,74,0.4), transparent);
+  background-attachment: fixed;
+}
+
+/* Header glass */
+.top {
+  background: rgba(6,11,24,0.88) !important;
+  border-bottom: 1px solid rgba(201,149,42,0.18) !important;
+}
+
+/* Cards */
+.card, .rate, .controls, .calc, .cc, .hero, .sig, .fest, .cmpbar, .cmpbox {
+  background: var(--card) !important;
+  border-color: var(--line) !important;
+}
+
+/* Gold gradient text on headings */
+h2 {
+  background: linear-gradient(90deg, var(--gold), #fff8e7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Rate cards top glow */
+.rate {
+  background: linear-gradient(145deg, #0d1628, #0a1220) !important;
+  border-color: rgba(201,149,42,0.2) !important;
+  transition: border-color 0.2s;
+}
+.rate:hover { border-color: var(--gold2) !important; }
+
+/* Best price hero card */
+.hero {
+  background: linear-gradient(135deg, #0d1a30, #081020) !important;
+  border-color: rgba(201,149,42,0.35) !important;
+  box-shadow: 0 0 40px rgba(201,149,42,0.08);
+}
+
+/* Buttons */
+.chips button, .seg button {
+  background: #0d1628 !important;
+  border-color: var(--line) !important;
+}
+.chips button.on, .seg button.on {
+  background: linear-gradient(135deg, var(--gold2), #e8c56a) !important;
+  border-color: var(--gold) !important;
+  color: #0a0800 !important;
+  box-shadow: 0 2px 12px rgba(232,197,106,0.25);
+}
+
+/* Buy button */
+.btn {
+  background: linear-gradient(135deg, var(--gold2), var(--gold)) !important;
+  color: #0a0800 !important;
+  box-shadow: 0 4px 16px rgba(201,149,42,0.3);
+}
+
+/* Table */
+table { background: var(--card) !important; }
+th:first-child, td:first-child { background: var(--card) !important; }
+td.best { background: linear-gradient(90deg, var(--gold2), var(--gold)) !important; color: #0a0800 !important; }
+
+/* Cheapest row cards */
+.cc { background: #0d1628 !important; border-color: var(--line) !important; }
+.cc.on { border-color: var(--gold) !important; box-shadow: 0 0 16px rgba(232,197,106,0.15); }
+
+/* Toggles */
+.tog i { background: #1a2840 !important; }
+.tog input:checked + i { background: var(--gold2) !important; }
+
+/* Select dropdowns */
+select { background: #0d1628 !important; border-color: var(--line) !important; }
+
+/* Footer links */
+.flinks a { color: var(--gold) !important; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--line); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold2); }
+
+/* Deal score bar */
+.chk.ok { color: var(--mut); }
+.chk.warn { color: #f5b942; }
+.chk.bad { color: var(--red); }
+
+/* Signal box */
+.sig.good { border-color: rgba(52,211,153,0.4) !important; background: rgba(52,211,153,0.04) !important; }
+.sig.wait { border-color: rgba(248,113,113,0.4) !important; background: rgba(248,113,113,0.04) !important; }
+
+/* Festival banner */
+.fest {
+  background: linear-gradient(90deg, rgba(201,149,42,0.14), rgba(201,149,42,0.04)) !important;
+  border-color: rgba(201,149,42,0.3) !important;
+}
+
+/* Premium tool pages (purity, loan, sip, jewellery) */
+.prem-page {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+.prem-page h1 {
+  font-family: Fraunces, serif;
+  font-size: 30px;
+  background: linear-gradient(90deg, var(--gold), #fff8e7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 12px 0 6px;
+}
+.prem-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 16px 0;
+}
+.prem-card h2 {
+  font-size: 18px;
+  margin: 0 0 14px;
+}
+.prem-label {
+  font-size: 12px;
+  color: var(--mut);
+  letter-spacing: .06em;
+  margin-bottom: 4px;
+}
+.prem-input {
+  width: 100%;
+  background: var(--card2);
+  color: var(--tx);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font: inherit;
+  font-size: 15px;
+  margin-bottom: 12px;
+  transition: border-color 0.2s;
+}
+.prem-input:focus {
+  outline: none;
+  border-color: var(--gold2);
+}
+.prem-btn {
+  background: linear-gradient(135deg, var(--gold2), var(--gold));
+  color: #0a0800;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  border-radius: 12px;
+  padding: 11px 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(201,149,42,0.25);
+  transition: opacity 0.15s;
+}
+.prem-btn:hover { opacity: 0.88; }
+.prem-result {
+  background: linear-gradient(135deg, #0d1a30, #081020);
+  border: 1px solid rgba(201,149,42,0.3);
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin-top: 16px;
+}
+.prem-result .big {
+  font: 700 32px Inter;
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+}
+.prem-result .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-size: 14px;
+  border-bottom: 1px solid var(--line);
+  color: var(--mut);
+}
+.prem-result .row:last-child { border-bottom: none; }
+.prem-result .row b { color: var(--tx); }
+
+/* Purity meter */
+.purity-meter {
+  height: 10px;
+  border-radius: 99px;
+  background: var(--line);
+  margin: 8px 0 4px;
+  overflow: hidden;
+}
+.purity-meter-fill {
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--gold2), var(--gold));
+  transition: width 0.5s cubic-bezier(.4,0,.2,1);
+}
+
+/* Hallmark grid */
+.hallmark-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+.hm-card {
+  background: var(--card2);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.hm-card:hover, .hm-card.on { border-color: var(--gold); }
+.hm-card .code { font: 700 18px Inter; color: var(--gold); }
+.hm-card .name { font-size: 12px; color: var(--mut); margin-top: 2px; }
+
+/* Lender grid */
+.lender-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+.lender-card {
+  background: var(--card2);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px;
+}
+.lender-card .lname { font-weight: 700; color: var(--gold); }
+.lender-card .lval { font: 700 22px Inter; color: var(--tx); margin: 4px 0; font-variant-numeric: tabular-nums; }
+.lender-card .lmeta { font-size: 12px; color: var(--mut); }
+
+/* SIP bars */
+.sip-bars { display: flex; gap: 8px; align-items: flex-end; height: 120px; margin-top: 12px; }
+.sip-bar { flex: 1; border-radius: 6px 6px 0 0; background: linear-gradient(180deg, var(--gold), var(--gold2)); min-width: 0; transition: height 0.4s; position: relative; }
+.sip-bar.etf { background: linear-gradient(180deg, #60a5fa, #3b82f6); }
+.sip-bar.sgb { background: linear-gradient(180deg, var(--green), #059669); }
+.sip-bar-label { position: absolute; top: -20px; left: 0; right: 0; text-align: center; font-size: 11px; color: var(--mut); white-space: nowrap; }
+
+/* JVC grid */
+.jvc-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+@media(max-width:540px) { .jvc-grid { grid-template-columns: 1fr; } }
+.jvc-card {
+  background: var(--card2);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px;
+}
+.jvc-card .jtype { font-size: 12px; color: var(--mut); letter-spacing: .06em; }
+.jvc-card .jval { font: 700 26px Inter; color: var(--gold); font-variant-numeric: tabular-nums; margin: 4px 0; }
+.jvc-card .jrow { display: flex; justify-content: space-between; font-size: 13px; padding: 3px 0; color: var(--mut); border-bottom: 1px solid var(--line); }
+.jvc-card .jrow:last-child { border: none; }
+.jvc-card .jrow b { color: var(--tx); }
+
+/* Seg tabs on prem pages */
+.prem-seg { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.prem-seg button {
+  background: var(--card2);
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  padding: 7px 16px;
+  font: 500 14px Inter;
+  color: var(--tx);
+  cursor: pointer;
+}
+.prem-seg button.on {
+  background: linear-gradient(135deg, var(--gold2), var(--gold));
+  color: #0a0800;
+  font-weight: 700;
+  border-color: var(--gold);
+}
+
+/* Back link */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.back-link:hover { opacity: 0.8; }
+
+/* Fields grid */
+.prem-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+@media(max-width:600px) {
+  .prem-page h1 { font-size: 24px; }
+  .prem-result .big { font-size: 26px; }
+}

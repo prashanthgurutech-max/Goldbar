@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GoldRadar – Gold coin and bar prices across Indian stores</title>
+<meta name="description" content="Compare 24K, 22K, 18K and 14K gold coin and bar prices in 1, 2, 5, 10 and 20 g across Myntra, Ajio, Flipkart, Shopsy and Amazon, with coupons and bank offers applied.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+Tamil:wght@400;600;700&family=Noto+Sans+Kannada:wght@400;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20261006a"><link rel="stylesheet" href="premium.css?v=20261007a"><link rel="stylesheet" href="premium2.css?v=20261007b"><link rel="stylesheet" href="elite.css?v=20261007b">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#060b18"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="GoldRadar"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:title" content="GoldRadar – compare gold coin and bar prices"><meta property="og:description" content="Cheapest gold coins and bars across Myntra, Ajio, Flipkart, Shopsy and Amazon, with coupons applied."><meta property="og:image" content="icon-512.png"><meta property="og:type" content="website">
+</head><body>
+<header class="top"><div class="wrap bar">
+  <div class="brand"><span class="dot"></span><b id="siteName">GoldRadar</b><span class="chip">BETA</span></div>
+  <nav class="topnav"><a href="gift.html" data-i18n>Gift picker</a><a href="tracker.html" data-i18n>Gold tracker</a><a href="calc.html" data-i18n>Calculators</a><a href="guide.html" data-i18n>Buying guide</a><a href="purity.html">Purity</a><a href="loan.html">Gold Loan</a><a href="sip.html">SIP</a><a href="jewellery.html">Jewellery vs Coin</a><a href="invest.html" data-i18n>Coin vs ETF vs SGB</a></nav>
+  <div class="live"><span id="liveRate"></span><span class="mut" id="liveAge"></span></div><button class="lang" type="button" data-share data-i18n>Share</button><select id="langSel" class="lang" aria-label="Language"></select>
+</div></header>
+<nav class="toolrow wrap"><a href="gift.html" data-i18n>Gift picker</a><a href="tracker.html" data-i18n>Gold tracker</a><a href="calc.html" data-i18n>Calculators</a><a href="guide.html" data-i18n>Buying guide</a><a href="purity.html">Purity</a><a href="loan.html">Gold Loan</a><a href="sip.html">SIP</a><a href="jewellery.html">Jewellery vs Coin</a></nav>
+<main class="wrap">
+  <div id="sampleBanner" class="banner" hidden>Sample data. Prices below are made up to show the layout. Real store prices are not connected yet.</div>
+
+  <div class="cityrow"><label><span data-i18n>City</span> <select id="citySel"></select></label><span class="mut" id="cityNote"></span></div>
+  <section id="rates" class="rates"></section>
+  <div id="offerStatus" class="offerstat"></div>
+  <div id="signal"></div>
+  <div id="festival"></div>
+
+  <section class="controls">
+    <div class="line"><span class="lab" data-i18n>KARAT</span><div class="seg" id="karatSeg"></div></div>
+    <div class="line"><span class="lab" data-i18n>WEIGHT</span><div class="chips" id="weightChips"></div></div>
+    <div class="line"><span class="lab" data-i18n>STORE</span><div class="chips" id="storeChips"></div></div>
+    <div class="line opts">
+      <label class="tog"><input type="checkbox" id="optCoupon" checked><i></i><span data-i18n>Apply coupons</span></label>
+      <label class="tog"><input type="checkbox" id="optBank" checked><i></i><span data-i18n>Apply bank offers</span></label>
+      <label class="sortl"><span data-i18n>Sort</span> <select id="sortSel"><option value="final" data-i18n>Lowest final price</option><option value="perg" data-i18n>Lowest ₹/g pure</option><option value="save" data-i18n>Biggest saving</option></select></label>
+    </div>
+  </section>
+
+  <section id="best"></section>
+  <section id="festDeals"></section>
+  <section><h2><span data-i18n>Cheapest at each weight</span> <small id="cheapSub"></small></h2><div class="cheap" id="cheapRow"></div></section>
+  <section><h2 id="listHead">Deals</h2><div id="listCount" class="mut"></div><div class="grid" id="grid"></div></section>
+  <section><h2><span data-i18n>Store comparison</span> <small data-i18n>best final price for each store, selected karat</small></h2><div class="tablewrap"><table id="cmp"></table></div></section>
+  <section><h2><span data-i18n>Market value by weight</span> <small data-i18n>what the gold itself is worth at today's rate</small></h2><div class="tablewrap"><table id="mv"></table></div></section>
+  <section id="citySection" hidden><h2><span data-i18n>Gold rate by city</span> <small data-i18n>tap a city to select it</small></h2><div class="tablewrap"><table id="cityTable"></table></div></section>
+  <section><h2><span data-i18n>Rate history</span> <small id="histSub"></small></h2>
+    <div class="seg" id="histSeg"><button data-m="g24" class="on" data-i18n>Gold 24K / g</button><button data-m="s" data-i18n>Silver / kg</button><button data-m="cmp" data-i18n>Gold vs silver</button></div>
+    <div class="seg" id="rangeSeg" style="margin-top:8px"><button data-r="30" class="on">1M</button><button data-r="90">3M</button><button data-r="365">1Y</button><button data-r="all" data-i18n>All</button></div>
+    <div id="hist" class="hist"></div><div class="mut" id="histNote" style="font-size:12px;margin-top:6px"></div></section>
+  <div id="cmpPanel" class="cmpdock" hidden></div>
+  <section id="watchlistSection"><h2>👁 My Watchlist</h2><div id="grWatchPanel"></div></section>
+  <footer>
+    <nav class="flinks"><a href="#" data-share data-i18n>Share GoldRadar</a><a href="gift.html" data-i18n>Gift picker</a><a href="tracker.html" data-i18n>Gold tracker</a><a href="calc.html" data-i18n>Calculators</a><a href="guide.html" data-i18n>Buying guide</a><a href="purity.html">Purity checker</a><a href="loan.html">Gold loan</a><a href="sip.html">SIP planner</a><a href="jewellery.html">Jewellery vs Coin</a><a href="invest.html" data-i18n>Coin vs ETF vs SGB</a><a href="about.html" data-i18n>About</a><a href="privacy.html" data-i18n>Privacy</a><a href="disclaimer.html" data-i18n>Disclaimer</a></nav>
+    <p id="affNote" data-i18n>Store links may be affiliate links. We may earn a commission at no extra cost to you.</p>
+    <p data-i18n>Prices are indicative and change often. Check the final price, coupon and stock on the store before buying. This is not investment advice.</p>
+  </footer>
+</main>
+<script src="track.js?v=20261006a"></script>
+<script src="translations.js?v=20261006a"></script>
+<script src="i18n.js?v=20261006a"></script>
+<script src="share.js?v=20261006a"></script>
+<script src="elite.js?v=20261007d"></script>
+<script src="app.js?v=20261006a"></script>
+<script src="premium.js?v=20261007a"></script></body></html>

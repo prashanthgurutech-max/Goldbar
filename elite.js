@@ -218,6 +218,28 @@ function renderWatchlistPanel(){
   });
 }
 
+// ── Score chip HTML (called by app.js) ───────────────────────────────────────
+function scoreChip(item){
+  const sc = dealScore(item);
+  const color = sc.cls==='score-ex'?'#34d399':sc.cls==='score-good'?'#e8c56a':sc.cls==='score-fair'?'#f5b942':'#f87171';
+  return `<span class="gr-chip" style="background:${color}22;color:${color};border:1px solid ${color}44;border-radius:99px;font-size:11px;font-weight:700;padding:2px 8px">${sc.score}/100 · ${sc.label}</span>`;
+}
+
+// ── Watch button (called by app.js) ──────────────────────────────────────────
+function watchChip(id, meta){
+  const watched = isWatched(id);
+  return `<button class="gr-watch-btn ${watched?'on':''}" data-wid="${JSON.stringify(meta).replace(/"/g,'&quot;')}" data-id="${id}" onclick="window.GRX&&GRX._onWatch(this)">${watched?'👁 Watching':'+ Watch'}</button>`;
+}
+
+// ── History chip (called by app.js) ──────────────────────────────────────────
+function histChip(listingId, currentPrice, phist){
+  const hi = histBadge(listingId, currentPrice, phist);
+  if(!hi || !hi.badge) return '';
+  const colors = { 'badge-low':'#34d399','badge-avg':'#e8c56a','badge-high':'#f87171' };
+  const c = colors[hi.badge.cls]||'#e8c56a';
+  return `<span class="gr-hist-badge ${hi.badge.cls}">${hi.badge.text}</span>`;
+}
+
 // ── Public API ────────────────────────────────────────────────────────────────
 window.GRX = {
   // Called by app.js after listings render
@@ -239,12 +261,28 @@ window.GRX = {
     renderWatchlistPanel();
   },
 
+  scoreChip,
+  watchChip,
+  histChip,
   dealScore,
   histBadge,
   isWatched,
   toggleWatch,
   getWatchlist,
   renderWatchlistPanel,
+
+  _onWatch: function(btn){
+    const id = btn.dataset.id || 'item-'+Math.random().toString(36).slice(2);
+    let meta = {};
+    try { meta = JSON.parse(btn.dataset.wid.replace(/&quot;/g,'"')); } catch(e){}
+    const nowWatched = toggleWatch(id, { ...meta, price: meta.final||0 });
+    btn.className = 'gr-watch-btn '+(nowWatched?'on':'');
+    btn.textContent = nowWatched ? '👁 Watching' : '+ Watch';
+    if(nowWatched && 'Notification' in window && Notification.permission !== 'granted'){
+      Notification.requestPermission();
+    }
+    renderWatchlistPanel();
+  },
 
   _requestNotifPerm: function(){
     if('Notification' in window && Notification.permission === 'default'){

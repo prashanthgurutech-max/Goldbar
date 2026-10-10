@@ -1,0 +1,80 @@
+name: BLINKDEAL6 watch
+# Checks the backup page every ~5 minutes. When it stops saying "BlinkDeal is OFF", it opens a GitHub issue that
+# mentions you. GitHub then emails you (and pushes to the GitHub mobile app if notifications are on).
+# It does NOT change your site's switch; you flip that yourself after you check Myntra.
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      test:
+        description: 'Send a test alert now (does not change saved state)'
+        type: choice
+        options: ['false', 'true']
+        default: 'false'
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: blinkdeal-watch
+  cancel-in-progress: false
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Check backup page and alert
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+          TEST: ${{ github.event.inputs.test }}
+        run: |
+          cat > watch.mjs <<'EOF'
+          import fs from 'node:fs';
+          const URL_ = 'https://blinkdeal.yourcardjourney.store/';
+          const STATE = 'data/blinkdeal-watch.json';
+          const { GH_TOKEN, REPO, OWNER, TEST } = process.env;
+          const ist = () => new Date(Date.now() + 5.5 * 3600e3).toISOString().slice(0, 19).replace('T', ' ') + ' IST';
+          let prev = false;
+          try { prev = JSON.parse(fs.readFileSync(STATE, 'utf8')).live === true; } catch {}
+          let text = '';
+          try {
+            const r = await fetch(URL_, { headers: { 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0', 'cache-control': 'no-cache' } });
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            const html = await r.text();
+            text = html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+          } catch (e) { console.log('Fetch failed, leaving state alone:', e.message); if (TEST !== 'true') process.exit(0); }
+          if (TEST !== 'true' && text.length < 200) { console.log('Page text too short (' + text.length + '), leaving state alone'); process.exit(0); }
+          const off = /blinkdeal\s+is\s+off/i.test(text);
+          const live = !off;
+          console.log(ist(), 'page says OFF:', off, '| previous live:', prev);
+          async function issue(title, body) {
+            const r = await fetch(`https://api.github.com/repos/${REPO}/issues`, { method: 'POST', headers: { authorization: `Bearer ${GH_TOKEN}`, accept: 'application/vnd.github+json', 'content-type': 'application/json' }, body: JSON.stringify({ title, body }) });
+            console.log('issue:', r.status);
+            if (!r.ok) { console.log(await r.text()); process.exit(1); }
+          }
+          if (TEST === 'true' || (live && !prev)) {
+            const snip = text.slice(0, 400);
+            await issue((TEST === 'true' ? '[TEST] ' : '') + '🔥 BLINKDEAL6 may be LIVE on Myntra',
+              `@${OWNER} the backup page no longer says "BlinkDeal is OFF" (${ist()}).\n\n` +
+              `Check now: https://www.myntra.com/gold-bar-24k\n` +
+              `Backup page: ${URL_}\n\n` +
+              `If it is live, open Actions > "BLINKDEAL6 switch" > Run workflow > true to update GoldRadar.\n\n` +
+              `What the page said (first 400 characters, for checking):\n> ${snip}`);
+          }
+          if (TEST !== 'true' && live !== prev) {
+            fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync(STATE, JSON.stringify({ live, checked: ist() }, null, 1));
+          }
+          EOF
+          node watch.mjs
+          rm -f watch.mjs
+      - name: Save state
+        run: |
+          git config user.name "rates-bot"
+          git config user.email "rates-bot@users.noreply.github.com"
+          git add data/blinkdeal-watch.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "BLINKDEAL6 watch state" && git pull --rebase && git push)

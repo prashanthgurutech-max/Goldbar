@@ -1,0 +1,50 @@
+id,store,brand,karat,weight_g,title,price,verified,checked_at,mode,url
+1,Flipkart,Joyalukkas,24,2,2 g 24K (999) gold bar,29465,,2026-10-31T15:17:22Z,AUTO,https://dl.flipkart.com/s/UFA1sPuuuN
+2,Flipkart,CasaJoya,24,5,5 g 24K (995) gold coin,75214,,2026-10-31T15:17:22Z,AUTO,https://dl.flipkart.com/s/UGic87uuuN
+3,Flipkart,Joyalukkas,24,10,10 g 24K (999) gold bar,147327,,2026-10-31T15:17:22Z,AUTO,https://dl.flipkart.com/s/UGM0BluuuN
+4,Flipkart,Bangalore Refinery,24,10,10 g 24K (999) gold bar,150700,,2026-10-31T15:17:22Z,AUTO,https://dl.flipkart.com/s/UFcsWhuuuN
+5,Myntra,BHIMA,24,10,10 g 24K (999) gold bar,157884,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/bhima/bhima-floral-24k-999-purity-gold-bar-10-gram/23250698/buy
+6,Myntra,BHIMA,24,5,5 g 24K (999) gold bar,79243,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/bhima/bhima-floral-24k-999-purity-gold-bar-5-gram/23250684/buy
+7,Myntra,BHIMA,24,1,1 g 24K (999) gold bar,16230,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/bhima/bhima-floral-24k-999-purity-gold-bar-1-gram/23250690/buy
+8,Myntra,Joyalukkas,24,2,2 g 24K (999) gold bar,33643,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/joyalukkas/joyalukkas-24kt(999)-gold-flower-gold-bar-2-gm/29872330/buy
+9,Myntra,BHIMA,24,20,20 g 24K (999) gold bar,316254,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/bhima/bhima-floral-24k-999-purity-gold-bar-20-gram/23250694/buy
+10,Myntra,Kalyan Jewellers,24,20,20 g 24K (999) gold bar,315284,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/kalyan-jewellers/kalyan-jewellers-24kt-999-purity-lotus-gold-bar-coin---20gm/31416923/buy
+11,Myntra,Kalyan Jewellers,24,5,5 g 24K (999) gold bar,79167,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/kalyan-jewellers/kalyan-jewellers-24kt-999-purity-lotus-gold-bar-coin---5-g/31416960/buy
+12,Myntra,Kalyan Jewellers,24,10,10 g 24K (999) gold bar,157907,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/kalyan-jewellers/kalyan-jewellers-24kt-999-purity-lotus-gold-bar-coin---10-g/31416941/buy
+13,Ajio,BHIMA,24,10,10 g 24K (999) gold bar,158248,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/zxih6xxu
+14,Ajio,Kalyan Jewellers,24,10,10 g 24K (999) gold bar,161097,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/ghbdgmf0
+15,Ajio,Joyalukkas,24,10,10 g 24K (999) gold bar,159954,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/9monwo21
+16,Ajio,Joyalukkas,24,2,2 g 24K (999) gold bar,32631,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/gxoikwch
+17,Ajio,BHIMA,24,1,1 g 24K (999) gold bar,16295,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/ahc4fwid
+18,Ajio,Kalyan Jewellers,24,5,5 g 24K (999) gold bar,81460,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/ziv200q5
+19,Ajio,BHIMA,24,5,5 g 24K (999) gold bar,79854,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/p46xxp9v
+20,Ajio,Malabar Gold & Diamonds,24,2,2 g 24K (999) gold bar,32861,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/11q8e7s4
+21,Ajio,Kalyan Jewellers,24,20,20 g 24K (999) gold bar,319495,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/9zrg9cwc
+22,Ajio,Bangalore Refinery,24,10,10 g 24K (9999) gold bar,158687,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/ztq52wf8
+23,Ajio,Malabar Gold & Diamonds,24,5,5 g 24K (999) gold bar,81304,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/kzfrps9c
+24,Ajio,BHIMA,24,20,20 g 24K (999) gold bar,318647,,2026-10-04T10:30:00Z,MANUAL,https://ajioapps.onelink.me/ybtf/3u0tarnt
+25,Myntra,Joyalukkas,24,5,5 g 24K (999) gold bar,83658,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/joyalukkas/joyalukkas-24kt(999)-gold-flower-gold-bar-5-gm/29872341/buy
+26,Myntra,Joyalukkas,24,10,10 g 24K (999) gold bar,167016,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/joyalukkas/joyalukkas-24-kt-flower-gold-bar--10g/35674438/buy
+27,Myntra,Bangalore Refinery,24,2,2 g 24K (9999) gold bar,32560,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/bangalore-refinery/bangalore-refinery-24kt-999.9-purity-gold-bar--2-g/22810430/buy
+28,Myntra,Bangalore Refinery,24,1,1 g 24K (9999) gold bar,16531,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/bangalore-refinery/bangalore-refinery-24kt-999.9-purity-gold-bar-1-g/22810428/buy
+29,Myntra,Joyalukkas,24,20,2 × 10 g 24K (999) gold bar combo (20 g),333732,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/joyalukkas/joyalukkaspack-of-2-24-kt-999-purity-floral-gold-bar-combo-10-g- -10-g/33911371/buy
+30,Myntra,Malabar Gold & Diamonds,24,2,2 g 24K (999) gold bar,32289,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/malabar-gold-&-diamonds/malabar-gold-&-diamonds-24kt-999-purity-rose-gold-bar---2-g/40324065/buy
+31,Myntra,Malabar Gold & Diamonds,24,5,5 g 24K (999) gold bar,79989,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/malabar-gold-&-diamonds/malabar-gold-&-diamonds-24kt-999-purity-rose-gold-bar---5-g/40324069/buy
+32,Myntra,Malabar Gold & Diamonds,24,1,1 g 24K (999) gold bar,16389,,2026-10-04T10:30:00Z,MANUAL,https://www.myntra.com/mailers/jewellery/malabar-gold-&-diamonds/malabar-gold-&-diamonds-24kt-999-purity-rose-gold-bar---1-g/40324062/buy
+33,Shopsy,Bangalore Refinery,24,1,1 g 24K (9999) gold bar,14941,,2026-10-31T15:17:22Z,AUTO,https://www.shopsy.in/banglore-refinery-sshopsy-br01-24-9999-k-1-g-gold-bar/p/itmb61a023314e79?pid=XINHMBWYEM6U3Z4G&lid=LSTXINHMBWYEM6U3Z4GYENXBB&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh
+34,Shopsy,Bangalore Refinery,24,2,2 g 24K (9999) gold bar,29851,,2026-10-31T15:17:22Z,AUTO,https://www.shopsy.in/banglore-refinery-sshopsy-br02-24-9999-k-2-g-gold-bar/p/itm998815e5348d3?pid=XINHMBWYUGHA3ZMC&lid=LSTXINHMBWYUGHA3ZMCQIRHNR&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh&spotlightTagId=default_TrendingId_mcr%2F73x%2Fydh
+35,Shopsy,Bangalore Refinery,24,5,5 g 24K (9999) gold bar,74653,,2026-10-31T15:17:22Z,AUTO,https://www.shopsy.in/banglore-refinery-sshopsy-br03-24-9999-k-5-g-gold-bar/p/itm1b363a4d559a8?pid=XINHMBWXGGET8ZEJ&lid=LSTXINHMBWXGGET8ZEJLSMZFB&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh
+36,Shopsy,Bangalore Refinery,24,10,10 g 24K (9999) gold bar,149208,,2026-10-31T15:17:22Z,AUTO,https://www.shopsy.in/banglore-refinery-sshopsy-br04-24-9999-k-10-g-gold-bar/p/itmc5d4561316ea2?pid=XINHMBWXZSXWVEBU&lid=LSTXINHMBWXZSXWVEBUYE9GTZ&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh
+37,Shopsy,Kalamandir,24,5,5 g 24K (999) gold bar,73638,,2026-10-31T15:17:22Z,AUTO,https://www.shopsy.in/kalamandir-5-gram-gold-bar-24k-999-purity-textured-pattern-design-24-k-g/p/itmc87d82d532ad3?pid=CONHN54UACHVHKAY&lid=LSTCONHN54UACHVHKAYGCHX1J&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh
+38,Shopsy,Kalamandir,24,2,2 g 24K (999) gold bar,29574,,2026-10-31T15:17:22Z,AUTO,https://www.shopsy.in/kalamandir-2-gm-999-fine-gold-bar-24k-pure-investment-gifting-collection-24-999-k-g/p/itmf71dcc44fe92d?pid=CONHN5FP2DHC7FS4&lid=LSTCONHN5FP2DHC7FS4G51FPM&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh
+39,Shopsy,Joyalukkas,24,5,5 g 24K (999) gold bar,73664,,2026-10-31T15:17:22Z,AUTO,https://www.shopsy.in/joyalukkas-flower-24-999-k-5-g-gold-bar/p/itm2958407f13f7b?pid=CONEWDKTSJFXNQ8G&lid=LSTCONEWDKTSJFXNQ8GTKBCYS&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh
+40,Shopsy,BHIMA,24,5,5 g 24K (999) gold bar,76352,,2026-10-31T15:17:22Z,AUTO,https://www.shopsy.in/bhima-24-999-k-5-g-gold-bar/p/itmbb2f813e1cff5?pid=CONHHVFMNYZJZVPM&lid=LSTCONHHVFMNYZJZVPMHINY1J&marketplace=FLIPKART&q=gold+bar+24k&store=mcr%2F73x%2Fydh
+41,Amazon,Kalyan Jewellers,24,2,2 g 24K (999) gold bar,33317,,2026-10-04T10:30:00Z,MANUAL,https://www.amazon.in/dp/B0D1VL5RX9?ref_=cm_sw_r_cso_cp_apin_dp_WTRYT1T5H22ZGHQKJ7MB
+42,Amazon,Joyalukkas,24,1,1 g 24K (999) gold bar,16861,,2026-10-04T10:30:00Z,MANUAL,https://amzn.in/d/06fndrli
+43,Amazon,Kalyan Jewellers,24,10,10 g 24K (999) gold bar,165441,,2026-10-04T10:30:00Z,MANUAL,https://amzn.in/d/02pzG8IH
+44,Amazon,BHIMA,24,5,5 g 24K (999) gold bar,82227,,2026-10-04T10:30:00Z,MANUAL,https://amzn.in/d/0bkOR1x5
+45,Flipkart,BHIMA,24,5,5 g 24K (999) gold bar,76352,,2026-10-31T15:17:22Z,AUTO,https://dl.flipkart.com/s/UZ7px!uuuN
+46,Flipkart,Bangalore Refinery,24,5,5 g 24K (999) gold bar,75400,,2026-10-31T15:17:22Z,AUTO,https://dl.flipkart.com/s/UD2P_huuuN
+47,Flipkart,Kalamandir,24,2,2 g 24K (999) gold bar,31408,,2026-10-31T15:17:22Z,AUTO,https://dl.flipkart.com/s/UZmLq2uuuN
+48,Flipkart,Kalamandir,24,10,10 g 24K (999) gold bar,156194,,2026-10-31T15:17:22Z,AUTO,https://dl.flipkart.com/s/IiI3c_NNNN
+49,Flipkart,Kalamandir,24,5,5 g 24K (999) gold bar,78203,,2026-10-31T15:17:22Z,AUTO,https://dl.flipkart.com/s/Iix016NNNN

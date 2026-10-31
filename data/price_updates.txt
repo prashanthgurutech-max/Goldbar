@@ -1,0 +1,4 @@
+# Paste one line per coin: the product link, a space, then the price.
+# Example: https://www.myntra.com/gold-coin/brand/name/12345678/buy 15200
+# Add the word force after a price to allow a change of more than 40%.
+# When you commit this file, the prices are applied and this file is cleared.

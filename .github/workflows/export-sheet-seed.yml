@@ -1,0 +1,23 @@
+name: Export coins for the Google Sheet
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: data-writes
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/export_seed.mjs
+      - run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add data/sheet_seed.csv
+          git diff --cached --quiet || (git commit -m "Export coins for the sheet" && git pull --rebase && git push)

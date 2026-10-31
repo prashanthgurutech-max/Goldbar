@@ -1,0 +1,34 @@
+name: Batch price update
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/price_updates.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: data-writes
+
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - id: run
+        run: node scripts/batch_prices.mjs
+        continue-on-error: true
+      - run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add data/listings.json data/price_updates.txt
+          git diff --cached --quiet || (git commit -m "Batch price update" && git pull --rebase && git push)
+      - name: Fail the run if some lines could not be applied, so GitHub emails you
+        if: steps.run.outcome == 'failure'
+        run: |
+          echo "Some lines failed. See the summary above and the FAILED comments in data/price_updates.txt."
+          exit 1
